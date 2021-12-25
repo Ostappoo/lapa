@@ -1,0 +1,242 @@
+@font-face {
+  font-family: "Proxima Nova"; 
+  src: url("../Fonts/proxima-nova-regular.ttf") format("truetype"); 
+  } 
+
+
+header{
+  position: absolute;
+  width: 1440px;
+  height: 900px;
+  right: 0px;
+  top: 0px;
+  background: #F7F5F3;
+  background-image: url("../Images/Desktop/Group1548.png");
+
+ 
+}
+
+.title{
+position: absolute;
+width: 1440px;
+height: 108px;
+left: 0px;
+top: 20px;
+border-bottom: 1px solid #D2D2D2;;
+
+  
+}
+.Logo{
+  position: absolute;
+  left: 11.46%;
+  right: 70.14%;
+  top: 0%;
+  bottom: 73.94%;
+}
+.adress
+{
+  position: absolute;
+  width: 449px;
+  height: 14px;
+  left: 823px;
+  top: 7px;
+  font-family: Proxima Nova;
+font-style: normal;
+text-align: left;
+font-weight: 600;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #434343;
+}
+
+.telephone{
+  position: absolute;
+  width: 449px;
+  height: 14px;
+  left: 823px;
+  top: 7px;
+  font-family: Proxima Nova;
+font-style: normal;
+text-align: right;
+font-weight: 600;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #434343;
+}
+
+
+
+.menu{
+  position: absolute;
+  width: 1440px;
+  height: 60px;
+  left: 0px;
+  top: 48px;
+  border-top: 1px solid #D2D2D2;
+  
+}
+
+
+
+.services{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  
+  position: absolute;
+  left: 11.46%;
+  right: 83.4%;
+  top: 65.74%;
+  bottom: 21.3%;
+
+}
+.prise{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  left: 20.62%;
+  right: 67.99%;
+  top: 65.74%;
+  bottom: 21.3%;
+}
+.stocks{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  left: 36.04%;
+  right: 60.56%;
+  top: 65.74%;
+  bottom: 21.3%;
+}
+.cynolist{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  left: 43.47%;
+  right: 51.81%;
+  top: 65.74%;
+  bottom: 21.3%;
+}
+.garden{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  left: 52.22%;
+  right: 40.97%;
+  top: 65.74%;
+  bottom: 21.3%;
+
+}
+.coloring{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  left: 63.06%;
+  right: 29.51%;
+  top: 65.74%;
+  bottom: 21.3%;
+
+}
+.masters{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  left: 74.51%;
+  right: 21.04%;
+  top: 65.74%;
+  bottom: 21.3%;
+}
+.vacancy{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  left: 82.99%;
+  right: 11.67%;
+  top: 65.74%;
+  bottom: 21.3%;  
+}
+.about-tutle{
+  position: absolute;
+  width: 888px;
+  height: 212px;
+  left: 276px;
+  top: 228px;
+}
+.about-tutle h1{
+  
+  
+  font-family: Proxima Nova;
+  font-size: 57px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 63px;
+  letter-spacing: 0em;
+  text-align: center;
+  
+color: #434343;
+}
+.about-tutle a{
+  font-family: Proxima Nova;
+font-size: 57px;
+font-style: italic;
+font-weight: 400;
+line-height: 63px;
+letter-spacing: 0em;
+text-align: center;
+
+
+}
+.about-tutle p{
+  font-family: Proxima Nova;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.main-sevrvise{
+  position: absolute;
+  width: 939px;
+  height: 522px;
+  left: 245px;
+  top: 800px;
+}
+.furst-servise{
+  
+}
