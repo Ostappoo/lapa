@@ -4,18 +4,21 @@
   } 
 
 
+body{
+  margin-top: 0%;
+  }
 header{
-  position: absolute;
-  width: 1440px;
   height: 900px;
   right: 0px;
   top: 0px;
   background: #F7F5F3;
   background-image: url("../Images/Desktop/Group1548.png");
-
- 
+  /*background-position: center; */
 }
 
+
+
+/* БЛОК ТИТУЛА  ПЕРЕДЕЛАТЬ ВЕСЬ _ */
 .title{
 position: absolute;
 width: 1440px;
@@ -23,9 +26,8 @@ height: 108px;
 left: 0px;
 top: 20px;
 border-bottom: 1px solid #D2D2D2;;
-
-  
 }
+
 .Logo{
   position: absolute;
   left: 11.46%;
@@ -33,6 +35,7 @@ border-bottom: 1px solid #D2D2D2;;
   top: 0%;
   bottom: 73.94%;
 }
+
 .adress
 {
   position: absolute;
@@ -70,6 +73,10 @@ border-bottom: 1px solid #D2D2D2;;
 
 
 
+
+
+/* БЛОК МЕНЮ  ПЕРЕДЕЛАТЬ ВЕСЬ  */
+
 .menu{
   position: absolute;
   width: 1440px;
@@ -79,8 +86,6 @@ border-bottom: 1px solid #D2D2D2;;
   border-top: 1px solid #D2D2D2;
   
 }
-
-
 
 .services{
   display: flex;
@@ -96,6 +101,7 @@ border-bottom: 1px solid #D2D2D2;;
   bottom: 21.3%;
 
 }
+
 .prise{
   display: flex;
   flex-direction: row;
@@ -109,6 +115,7 @@ border-bottom: 1px solid #D2D2D2;;
   top: 65.74%;
   bottom: 21.3%;
 }
+
 .stocks{
   display: flex;
   flex-direction: row;
@@ -123,7 +130,6 @@ border-bottom: 1px solid #D2D2D2;;
   bottom: 21.3%;
 }
 
-
 .cynolist{
   display: flex;
   flex-direction: row;
@@ -137,6 +143,7 @@ border-bottom: 1px solid #D2D2D2;;
   top: 65.74%;
   bottom: 21.3%;
 }
+
 .garden{
   display: flex;
   flex-direction: row;
@@ -197,6 +204,10 @@ border-bottom: 1px solid #D2D2D2;;
   height: 212px;
   left: 276px;
   top: 228px;
+  /*
+  position: relative;
+  margin: 100px auto;
+  */
 }
 .about-tutle h1{
   
@@ -232,62 +243,172 @@ text-align: center;
   text-align: center;
 }
 
+
+
+/* БЛОК СЕРВИСОВ   СДЕЛАТЬ ЦЕНТРИРОВАНИЕ  _ */
+
+
+
 .main-sevrvise{
   display: flex;
   flex-direction: column;
   align-content: space-between;
   flex-wrap: wrap;
   justify-content: space-between;
-  position: absolute;
+  position: absolute; /*удалить */
   width: 939px;
   height: 522px;
   left: 245px;
   top: 800px;
   text-align: center;
+  /*margin: -137px auto; */
 }
 
-
-
-
-
-
-
-
-
-
 .main-sevrvise h1{
-
-  
-  
   height: 28px;
   left: 313px;
   top: 904px;
-
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
   line-height: 115%;
   /* identical to box height, or 28px */
-
   text-align: center;
+  color: #434343;
+}
+
+.main-sevrvise p{
+  height: 88px;
+  width: 180px;
+  left: 993px;
+  top: 948px;
+  border-radius: nullpx;
+  font-family: Proxima Nova;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+/* БЛОК ПОИСКА ПО ПОРОДАМ  не сделанЫ СТИЛИ  _ */
+
+.checkbreed{
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  width: 1056px;
+  height: 258px;
+  left: 165px;
+  top: 1462px;
+
+}
+
+.checkbreed h1{
+  width: 540px;
+  height: 82px;
+  left: 165px;
+  top: 1462px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 115%;
+  color: #434343;
+}
+.checkbreed p{
+  width: 540px;
+  height: 75px;
+  left: 165px;
+  top: 1572px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 140%;
+  /* or 25px */
+  color: #434343;
+}
+
+/* ЛИНК КАТЕГОРИЙ -  не сделаны _ */
+
+
+
+.categories{
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: absolute;
+  width: 1109px;
+  height: 628px;
+  left: 165px;
+  top: 1880px;
+  
+}
+.categories p{
+  position: absolute;
+  padding-left: 40px;
+  width: 169px;
+  height: 62px;
+  
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+  /* or 31px */
+
+  text-transform: uppercase;
 
   /* Basic Gray */
 
   color: #434343;
 }
-.main-sevrvise p{
-  height: 88px;
-width: 180px;
-left: 993px;
-top: 948px;
-border-radius: nullpx;
-font-family: Proxima Nova;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 22px;
-letter-spacing: 0em;
-text-align: center;
 
+
+
+
+
+/* БЛОК МАСТЕРОВ  не сделаны _ */
+.staff{
+  display: flex;
+  position: absolute;
+  width: 1111px;
+  height: 524px;
+  left: 164px;
+  top: 2668px;
+  margin: auto;
+}
+
+.staff h1{
+  font-family: Proxima Nova;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.workers{
+  /*position: absolute; */
+  width: 162px;
+  height: 163px;
+  left: 1111px;
+  top: 2668px;
+}
+
+.workers p{
+  font-family: Proxima Nova;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
 }
