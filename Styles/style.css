@@ -5,8 +5,11 @@
 
 
 body{
-  margin-top: 0%;
+  margin: 0%;
+  display: flex;
+  flex-direction: column;
   }
+
 header{
   height: 900px;
   right: 0px;
@@ -20,32 +23,32 @@ header{
 
 /* БЛОК ТИТУЛА  ПЕРЕДЕЛАТЬ ВЕСЬ _ */
 .title{
-position: absolute;
-width: 1440px;
-height: 108px;
-left: 0px;
-top: 20px;
-border-bottom: 1px solid #D2D2D2;;
+  position: relative;
+  width: 1440px;
+  height: 108px;
+  top: 20px;
+  /*border-bottom: 1px solid #D2D2D2;*/
 }
 
 .Logo{
   position: absolute;
-  left: 11.46%;
-  right: 70.14%;
-  top: 0%;
-  bottom: 73.94%;
+    /* left: 11.46%; */
+    /* right: 70.14%; */
+    top: 0%;
+    padding-left: 165px;
+    /* bottom: 73.94%;*/
 }
 
-.adress
-{
-  position: absolute;
+.contactss{
+  display: flex;
+  justify-content: space-between;
   width: 449px;
   height: 14px;
-  left: 823px;
-  top: 7px;
+  position: absolute;
+  top: -7px;
+  right: 168px;
   font-family: Proxima Nova;
   font-style: normal;
-  text-align: left;
   font-weight: 600;
   font-size: 14px;
   line-height: 100%;
@@ -53,23 +56,6 @@ border-bottom: 1px solid #D2D2D2;;
   text-transform: uppercase;
   color: #434343;
 }
-
-.telephone{
-  position: absolute;
-  width: 449px;
-  height: 14px;
-  left: 823px;
-  top: 7px;
-  font-family: Proxima Nova;
-  font-style: normal;
-  text-align: right;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 100%;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #434343;
-  }
 
 
 
@@ -79,133 +65,57 @@ border-bottom: 1px solid #D2D2D2;;
 
 .menu{
   position: absolute;
+  display: flex;
   width: 1440px;
-  height: 60px;
-  left: 0px;
+  height: 58px;
+  /* left: 8px; */
   top: 48px;
   border-top: 1px solid #D2D2D2;
+  border-bottom: 1px solid #D2D2D2;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: space-around;
+  align-items: center;
+ 
+
+}
+.menu a{
+  position: static;
+  width: 49px;
+  height: 14px;
+  left: 0px;
+  top: 0px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #434343;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 12px;
+  text-decoration: none;
   
 }
 
 .services{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-  
-  position: absolute;
-  left: 11.46%;
-  right: 83.4%;
-  top: 65.74%;
-  bottom: 21.3%;
-
-}
-
-.prise{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-
-  position: absolute;
-  left: 20.62%;
-  right: 67.99%;
-  top: 65.74%;
-  bottom: 21.3%;
-}
-
-.stocks{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-
-  position: absolute;
-  left: 36.04%;
-  right: 60.56%;
-  top: 65.74%;
-  bottom: 21.3%;
-}
-
-.cynolist{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-
-  position: absolute;
-  left: 43.47%;
-  right: 51.81%;
-  top: 65.74%;
-  bottom: 21.3%;
-}
-
-.garden{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-
-  position: absolute;
-  left: 52.22%;
-  right: 40.97%;
-  top: 65.74%;
-  bottom: 21.3%;
-
-}
-.coloring{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-
-  position: absolute;
-  left: 63.06%;
-  right: 29.51%;
-  top: 65.74%;
-  bottom: 21.3%;
-
-}
-.masters{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-
-  position: absolute;
-  left: 74.51%;
-  right: 21.04%;
-  top: 65.74%;
-  bottom: 21.3%;
+  padding-left: 165px;
 }
 .vacancy{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-
-  position: absolute;
-  left: 82.99%;
-  right: 11.67%;
-  top: 65.74%;
-  bottom: 21.3%;  
+padding-right: 165px;
 }
+
+
 .about-tutle{
-  position: absolute;
+  position: relative;
   width: 888px;
   height: 212px;
   left: 276px;
-  top: 228px;
-  /*
-  position: relative;
+  top: 100px;
+  /*  
   margin: 100px auto;
   */
 }
@@ -222,14 +132,14 @@ border-bottom: 1px solid #D2D2D2;;
   
 color: #434343;
 }
-.about-tutle a{
+.about-tutle p1{
   font-family: Proxima Nova;
-font-size: 57px;
-font-style: italic;
-font-weight: 400;
-line-height: 63px;
-letter-spacing: 0em;
-text-align: center;
+  font-size: 57px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 63px;
+  letter-spacing: 0em;
+  text-align: center;
 
 
 }
@@ -255,13 +165,14 @@ text-align: center;
   align-content: space-between;
   flex-wrap: wrap;
   justify-content: space-between;
-  position: absolute; /*удалить */
+  position: relative; /*удалить */
   width: 939px;
   height: 522px;
   left: 245px;
-  top: 800px;
+  top: -100px;
   text-align: center;
   /*margin: -137px auto; */
+  /* left:100px;*/
 }
 
 .main-sevrvise h1{
@@ -297,12 +208,12 @@ text-align: center;
 
 .checkbreed{
   display: flex;
-  position: absolute;
+  position: relative;
   flex-direction: column;
   width: 1056px;
   height: 258px;
   left: 165px;
-  top: 1462px;
+  top: 40px;
 
 }
 
@@ -330,6 +241,99 @@ text-align: center;
   line-height: 140%;
   /* or 25px */
   color: #434343;
+  margin-bottom: 31px;
+}
+
+/* Классы категорий поиска  */
+.search{
+  display:flex
+}
+.Dog{ 
+  padding: 12px 20px;
+  background: #434343;
+  border-radius: 6px;
+  font-family: Proxima Nova;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+ 
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+.Cat{
+  padding: 12px 20px 12px 40px;
+  background: #F7F5F3;
+  border-radius: 6px;
+  position: static;
+  width: 69px;
+  height: 18px;
+  font-family: Proxima Nova;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #434343;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+.AcceptBreed{
+  padding: 12px 20px;
+  position: absolute;
+  width: 619px;
+  height: 18px;
+  background: #F7F5F3;
+  border-radius: 6px;
+  position: static;
+  font-family: Proxima Nova;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #949191;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+  outline: none;
+border: none;
+  
+  }
+
+
+.PickBreed{
+padding: 12px 20px;
+/*position: absolute;
+width: 152px;
+height: 42px;*/
+background: #434343;
+border-radius: 6px;
+position: static;
+font-family: Proxima Nova;
+font-style: italic;
+font-weight: normal;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+outline: none;
+border: none;
 }
 
 /* ЛИНК КАТЕГОРИЙ -  не сделаны _ */
@@ -342,11 +346,11 @@ text-align: center;
   align-content: space-between;
   flex-wrap: wrap;
   flex-direction: row;
-  position: absolute;
+  position: relative;
   width: 1109px;
   height: 628px;
   left: 165px;
-  top: 1880px;
+  top: 260px;
   
 }
 .categories p{
@@ -354,19 +358,12 @@ text-align: center;
   padding-left: 40px;
   width: 169px;
   height: 62px;
-  
-
   font-family: Inter;
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
   line-height: 140%;
-  /* or 31px */
-
   text-transform: uppercase;
-
-  /* Basic Gray */
-
   color: #434343;
 }
 
@@ -377,12 +374,13 @@ text-align: center;
 /* БЛОК МАСТЕРОВ  не сделаны _ */
 .staff{
   display: flex;
-  position: absolute;
-  width: 1111px;
-  height: 524px;
-  left: 164px;
-  top: 2668px;
-  margin: auto;
+    position: relative;
+    width: 1111px;
+    height: 524px;
+    left: 164px;
+    top: 365px;
+    flex-direction: column;
+    /* margin: auto;*/
 }
 
 .staff h1{
@@ -396,11 +394,13 @@ text-align: center;
 }
 
 .workers{
-  /*position: absolute; */
-  width: 162px;
-  height: 163px;
-  left: 1111px;
-  top: 2668px;
+  display: flex;
+  position: absolute;
+  left: 545px;
+  width: 152px;
+  height: 217px;
+  top: 7px;
+  text-align: center;
 }
 
 .workers p{
@@ -411,4 +411,371 @@ text-align: center;
   line-height: 23px;
   letter-spacing: 0em;
   text-align: center;
+}
+
+/* внутренний блок МАСТЕРА  */
+.aboutworker{
+  position: relative;
+    width: 1110px;
+    height: 278px;
+    /* left: 165px; */
+    top: 108px;
+}
+.worker1{
+  position: absolute;
+  width: 255px;
+  height: 278px;
+  background: #F7F5F3;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 34;
+}
+.aboutworker h1{
+  position: absolute;
+  width: 227px;
+  height: 32px;
+  left: 380px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 115%;
+  color: #434343;
+  }
+
+
+.aboutworker p1{
+  padding: 12px 20px;
+  position: absolute;
+  background: #DEE7E6;
+  border-radius: 6px;
+  width: 231px;
+  height: 16px;
+  left: 380px;
+  top: 94px;
+  font-family: Proxima Nova;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  color: #434343;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.aboutworker p2{ 
+  padding: 12px 20px;
+  position: absolute;
+  left: 671px;
+  bottom: 2102px;
+  background: #DEE7E6;
+  border-radius: 6px;
+  width: 92px;
+  height: 16px; 
+  top: 94px;
+  font-family: Proxima Nova;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  color: #434343;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.aboutworker p{
+  position: absolute;
+  width: 730px;
+  height: 78px;
+  left: 380px;
+  top: 174px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  color: #434343;
+}
+
+
+
+/*ВОПРОСЫ */
+
+.question{
+  position: relative;
+  width: 489px;
+  height: 37px;
+  left: 475px;
+  top: 460px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 31px;
+  line-height: 120%;
+  text-align: center;
+  color: #434343;
+}
+.questions{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+    top: 500px;
+
+}
+.questions p{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 706px;
+  height: auto;
+  left: 367px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 115%;
+  color: #434343;
+  padding-bottom:8px;
+  border-bottom: 1px solid #D2D2D2; 
+}
+.questions p1{
+  display: none;
+  width: 692px;
+  height: 130px;
+  margin-left: 367px; 
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  color: #434343;
+  }
+
+  /* КОЛАЖ С ИНСТОЙ  */
+.instpets{
+  position: relative;
+  width: 1440px;
+  height: 268px;
+  left: 0px;
+  top: 660px;
+}
+.instagrammsale{
+  position: relative;
+  width: 974px;
+  height: 23px;
+  left: 233px;
+  top: 0;
+}
+.instagrammsale p{
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 115%;
+  /* identical to box height, or 23px */
+  
+  text-align: center;
+  text-transform: uppercase;
+}
+.instagrammsale p1{
+  font-family: Proxima Nova;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.fotocol{
+  display: flex;
+  position: relative;
+  margin-top: 40px;
+  width: 308px;
+  height: 205px;
+
+}
+
+
+/* ОТЗЫВЫ */
+.reviews{
+  position: relative;
+  width: 608px;
+  height: 365px;
+  top: 820px;
+}
+.reviews h1{
+  position: absolute;
+  width: 136px;
+  height: 41px;
+  left: 164px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 115%;
+  color: #434343;
+  margin: 0%;
+}
+.reviews p{
+  position: absolute;
+  width: 608px;
+  height: 50px;
+  left: 550px;
+  
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 140%;
+  margin: 0%;
+  /* or 25px */
+}
+
+
+
+
+/* блоки футажа */
+
+
+.footageall{
+  position: relative;
+    top: 110px;
+    left: 164px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 2345px;
+    height: 200px;
+}
+.footage{
+  display: flex;
+  position: relative;
+  width: 445px;
+  height: 200px;
+  /*left: 164px;*/
+  /*top: 110px;*/
+  background: #F7F5F3;
+  border-radius: 10px;
+}
+.footage img{
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  left: 20px;
+  top: 20px;
+
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+.footage h1{
+  position: absolute;
+  width: 119px;
+  height: 20px;
+  left: 200px;
+  top: 41px;
+  font-family: Proxima Nova;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  color: #434343;
+}
+.footage p{
+  position: absolute;
+  width: 211px;
+  height: 96px;
+  left: 200px;
+  top: 73px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #434343;
+}
+
+.swapbuttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px;
+  position: absolute;
+  width: 107.38px;
+  height: 16px;
+  left: 666px;
+  top: 349px;
+
+}
+.swapbuttons p1{
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 100%;
+  color: #434343;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* ПОДВАЛ ЕБАНЫЙ */
+
+footer{
+  position: relative;
+  left: 0%;
+  right: 0%;
+  top: 925px;
+  bottom: 0%;
+  width: 1440px;
+  height: 257px;
+  background: #434343;
+}
+.footerup{
+  position: relative;
+  height: 206px;
+  border-bottom: 1px solid #F9F9F9;
+}
+
+
+.footerdown{
+  position: relative;
+  height: 51px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+.lapagrooming{
+  position: absolute;
+  left: 165px;
+  top: 20px;
+  font-family: Proxima Nova;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 100%;
+/* identical to box height, or 11px */
+
+text-transform: uppercase;
+
+/* White background */
+
+color: #FFFFFF;
+}
+.lapacookie{
+  position: absolute;
+  left: 893px;
+  top: 20px;
+  
+}
+.lapaconf{
+  position: absolute;
+  left: 1113px;
+  top: 20px;
 }
