@@ -8,6 +8,7 @@ body{
   margin: 0%;
   display: flex;
   flex-direction: column;
+  align-items: center;
   }
 
 header{
@@ -778,4 +779,129 @@ color: #FFFFFF;
   position: absolute;
   left: 1113px;
   top: 20px;
+}
+
+
+
+/* левая часть футра */
+
+.footer_about{
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 239px;
+  left: 165px;
+  top: 27px;
+}
+.footer_about svg{
+  height: 42px;
+  width: 193px;
+  padding-bottom: 18px;
+}
+.footer_about h1{
+  width: 191px;
+  height: 42px;
+  font-family: Proxima Nova;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #DEE7E6;
+  padding-bottom: 12px;
+  margin: 0%;
+}
+.footer_about p{
+  width: 239px;
+  height: 42px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 120%;
+  color: #FFFFFF;
+  margin: 0%;
+}
+
+/* правая  часть футра */
+
+
+.footer_right{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  height: 122px;
+  width: 740px;
+  top: 40px;
+  right: 166px;
+  margin: 0%;
+}
+.footer_right h1{
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0%;
+  padding-bottom: 20px;
+}
+.footer_right a{
+  position: relative;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 100%;
+  color: #FFFFFF;
+  margin: 0%;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+.basic{
+  display: flex;
+    flex-direction: column;
+  height: 122px;
+  width: 115px;
+  left: 534px;
+  top: 40px;
+  border-radius: 0px;
+  
+}
+
+.additionaly{
+  display: flex;
+    flex-direction: column;
+  height: 122px;
+  width: 146px;
+  left: 705px;
+  top: 40px;
+  border-radius: 0px;
+
+}
+
+.salon{
+  display: flex;
+    flex-direction: column;
+  height: 122px;
+  width: 88px;
+  left: 917px;
+  top: 40px;
+  border-radius: 0px;
+
+}
+
+.contacts_footer{
+  display: flex;
+    flex-direction: column;
+  height: 122px;
+  width: 203px;
+  left: 1071px;
+  top: 40px;
+  border-radius: 0px;
+
+
 }
