@@ -757,17 +757,12 @@ footer{
   left: 165px;
   top: 20px;
   font-family: Proxima Nova;
-font-style: normal;
-font-weight: normal;
-font-size: 11px;
-line-height: 100%;
-/* identical to box height, or 11px */
-
-text-transform: uppercase;
-
-/* White background */
-
-color: #FFFFFF;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
 .lapacookie{
   position: absolute;
@@ -902,6 +897,4 @@ color: #FFFFFF;
   left: 1071px;
   top: 40px;
   border-radius: 0px;
-
-
 }
