@@ -210,6 +210,12 @@ padding-right: 165px;
   letter-spacing: 0em;
   text-align: center;
 }
+.mainbutton{
+position: relative;
+top: 126px;
+left: 666px;
+}
+
                            /* БЛОК СЕРВИСОВ   СДЕЛАТЬ ЦЕНТРИРОВАНИЕ  _ */
 
 .main-sevrvise{
