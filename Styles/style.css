@@ -1,15 +1,14 @@
 @font-face {
   font-family: "Proxima Nova"; 
   src: url("../Fonts/proxima-nova-regular.ttf") format("truetype"); 
-  } 
-
-
+}          
+                                                    
 body{
   margin: 0%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  }
+}
 
 header{
   height: 900px;
@@ -19,27 +18,21 @@ header{
   background-image: url("../Images/Desktop/Group1548.png");
   /*background-position: center; */
 }
-
-
-
-/* БЛОК ТИТУЛА  ПЕРЕДЕЛАТЬ ВЕСЬ _ */
+                           /* БЛОК ТИТУЛА  ПЕРЕДЕЛАТЬ ВЕСЬ _ */
 .title{
   position: relative;
   width: 1440px;
   height: 108px;
   top: 20px;
-  /*border-bottom: 1px solid #D2D2D2;*/
 }
-
 .Logo{
   position: absolute;
-    /* left: 11.46%; */
-    /* right: 70.14%; */
-    top: 0%;
-    padding-left: 165px;
-    /* bottom: 73.94%;*/
+  /* left: 11.46%; */
+  /* right: 70.14%; */
+  top: 0%;
+  padding-left: 165px;
+  /* bottom: 73.94%;*/
 }
-
 .contactss{
   display: flex;
   justify-content: space-between;
@@ -57,13 +50,19 @@ header{
   text-transform: uppercase;
   color: #434343;
 }
-
-
-
-
-
-/* БЛОК МЕНЮ  ПЕРЕДЕЛАТЬ ВЕСЬ  */
-
+.contactss a{
+  display: flex;
+  justify-content: space-between;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #434343;
+}
+                           /* БЛОК МЕНЮ  ПЕРЕДЕЛАТЬ ВЕСЬ  */
 .menu{
   position: absolute;
   display: flex;
@@ -72,14 +71,12 @@ header{
   /* left: 8px; */
   top: 48px;
   border-top: 1px solid #D2D2D2;
-  border-bottom: 1px solid #D2D2D2;
+  /*border-bottom: 1px solid #D2D2D2;*/
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-content: space-around;
   align-items: center;
- 
-
 }
 .menu a{
   position: static;
@@ -99,15 +96,80 @@ header{
   flex-grow: 0;
   margin: 0px 12px;
   text-decoration: none;
+  cursor: pointer;
   
 }
-
+.menu a:hover{
+  color: #D0B08A;
+}
+.menu svg.hover{
+  color: #D0B08A;
+}
 .services{
   padding-left: 165px;
+  
 }
 .vacancy{
 padding-right: 165px;
 }
+
+/* блок меню */
+
+.servicesblock{
+  display: none;
+  position: absolute;
+  width: 377px;
+  height: 196px;
+  left: 140px;
+  top: 80px;
+  background-image: url("../Images/backsvg.svg");
+  /*display: flex;*/
+  justify-content: space-evenly;
+  /*background: #FFFFFF;
+  border: 1px solid #EFEFEF;
+  box-sizing: border-box;
+  border-radius: 10px;*/
+  z-index: 9;
+  
+}
+.servicesblock p{
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #949191;
+  padding-bottom: 16px;
+  margin: 0;
+}
+.servicesblock a{
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  color: #434343;
+  padding-bottom: 16px;
+  margin: 0%;
+}
+.services_block_left{
+  width: 148px ;
+  height: 108px;
+  margin-top: 57px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.services_block_right{
+  width: 109px;
+  height: 108px;
+  margin-top: 57px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 
 
 .about-tutle{
@@ -121,8 +183,6 @@ padding-right: 165px;
   */
 }
 .about-tutle h1{
-  
-  
   font-family: Proxima Nova;
   font-size: 57px;
   font-style: normal;
@@ -130,8 +190,7 @@ padding-right: 165px;
   line-height: 63px;
   letter-spacing: 0em;
   text-align: center;
-  
-color: #434343;
+  color: #434343;
 }
 .about-tutle p1{
   font-family: Proxima Nova;
@@ -141,8 +200,6 @@ color: #434343;
   line-height: 63px;
   letter-spacing: 0em;
   text-align: center;
-
-
 }
 .about-tutle p{
   font-family: Proxima Nova;
@@ -153,12 +210,7 @@ color: #434343;
   letter-spacing: 0em;
   text-align: center;
 }
-
-
-
-/* БЛОК СЕРВИСОВ   СДЕЛАТЬ ЦЕНТРИРОВАНИЕ  _ */
-
-
+                           /* БЛОК СЕРВИСОВ   СДЕЛАТЬ ЦЕНТРИРОВАНИЕ  _ */
 
 .main-sevrvise{
   display: flex;
@@ -175,7 +227,6 @@ color: #434343;
   /*margin: -137px auto; */
   /* left:100px;*/
 }
-
 .main-sevrvise h1{
   height: 28px;
   left: 313px;
@@ -185,11 +236,9 @@ color: #434343;
   font-weight: 600;
   font-size: 24px;
   line-height: 115%;
-  /* identical to box height, or 28px */
   text-align: center;
   color: #434343;
 }
-
 .main-sevrvise p{
   height: 88px;
   width: 180px;
@@ -203,9 +252,8 @@ color: #434343;
   line-height: 22px;
   letter-spacing: 0em;
   text-align: center;
-
 }
-/* БЛОК ПОИСКА ПО ПОРОДАМ  не сделанЫ СТИЛИ  _ */
+                           /* БЛОК ПОИСКА ПО ПОРОДАМ  не сделанЫ СТИЛИ  _ */
 
 .checkbreed{
   display: flex;
@@ -217,7 +265,6 @@ color: #434343;
   top: 40px;
 
 }
-
 .checkbreed h1{
   width: 540px;
   height: 82px;
@@ -240,12 +287,10 @@ color: #434343;
   font-weight: normal;
   font-size: 18px;
   line-height: 140%;
-  /* or 25px */
   color: #434343;
   margin-bottom: 31px;
 }
-
-/* Классы категорий поиска  */
+                           /* Классы категорий поиска  */
 .search{
   display:flex
 }
@@ -261,7 +306,6 @@ color: #434343;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #FFFFFF;
- 
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -308,39 +352,32 @@ color: #434343;
   flex-grow: 0;
   margin: 0px 10px;
   outline: none;
-border: none;
-  
-  }
-
-
-.PickBreed{
-padding: 12px 20px;
-/*position: absolute;
-width: 152px;
-height: 42px;*/
-background: #434343;
-border-radius: 6px;
-position: static;
-font-family: Proxima Nova;
-font-style: italic;
-font-weight: normal;
-font-size: 18px;
-line-height: 100%;
-letter-spacing: 0.05em;
-text-transform: uppercase;
-color: #FFFFFF;
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px 10px;
-outline: none;
-border: none;
+  border: none;
 }
-
-/* ЛИНК КАТЕГОРИЙ -  не сделаны _ */
-
-
-
+.PickBreed{
+  padding: 12px 20px;
+  /*position: absolute;
+  width: 152px;
+  height: 42px;*/
+  background: #434343;
+  border-radius: 6px;
+  position: static;
+  font-family: Proxima Nova;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+  outline: none;
+  border: none;
+}
+                           /* ЛИНК КАТЕГОРИЙ -  не сделаны _ */
 .categories{
   display: flex;
   justify-content: space-between;
@@ -367,23 +404,17 @@ border: none;
   text-transform: uppercase;
   color: #434343;
 }
-
-
-
-
-
-/* БЛОК МАСТЕРОВ  не сделаны _ */
+                           /* БЛОК МАСТЕРОВ  не сделаны _ */
 .staff{
   display: flex;
-    position: relative;
-    width: 1111px;
-    height: 524px;
-    left: 164px;
-    top: 365px;
-    flex-direction: column;
-    /* margin: auto;*/
+  position: relative;
+  width: 1111px;
+  height: 524px;
+  left: 164px;
+  top: 365px;
+  flex-direction: column;
+  /* margin: auto;*/
 }
-
 .staff h1{
   font-family: Proxima Nova;
   font-size: 36px;
@@ -392,19 +423,22 @@ border: none;
   line-height: 41px;
   letter-spacing: 0em;
   text-align: left;
+  margin-top: 0%;
 }
-
 .workers{
   display: flex;
   position: absolute;
-  left: 545px;
-  width: 152px;
+  left: 386px;
+  /*width: 152px;*/
   height: 217px;
-  top: 7px;
   text-align: center;
 }
-
-.workers p{
+.worker{
+  position: relative;
+  width: 162px;
+  height: 163px;
+}
+.worker p{
   font-family: Proxima Nova;
   font-size: 20px;
   font-style: normal;
@@ -413,14 +447,18 @@ border: none;
   letter-spacing: 0em;
   text-align: center;
 }
-
-/* внутренний блок МАСТЕРА  */
+.worker img{
+  width: 120px;
+  height: 120px;
+  background: #F7F5F3;
+  border-radius: 10px;
+}
+                           /* внутренний блок МАСТЕРА  */
 .aboutworker{
   position: relative;
-    width: 1110px;
-    height: 278px;
-    /* left: 165px; */
-    top: 108px;
+  width: 1110px;
+  height: 278px;
+  top: 180px;
 }
 .worker1{
   position: absolute;
@@ -429,7 +467,9 @@ border: none;
   background: #F7F5F3;
   border-radius: 10px;
   text-align: center;
-  line-height: 34;
+}
+.worker1 img{
+  margin-top: 18px;
 }
 .aboutworker h1{
   position: absolute;
@@ -442,9 +482,7 @@ border: none;
   font-size: 28px;
   line-height: 115%;
   color: #434343;
-  }
-
-
+}
 .aboutworker p1{
   padding: 12px 20px;
   position: absolute;
@@ -464,7 +502,6 @@ border: none;
   order: 0;
   flex-grow: 0;
 }
-
 .aboutworker p2{ 
   padding: 12px 20px;
   position: absolute;
@@ -485,7 +522,6 @@ border: none;
   order: 0;
   flex-grow: 0;
 }
-
 .aboutworker p{
   position: absolute;
   width: 730px;
@@ -499,11 +535,7 @@ border: none;
   line-height: 160%;
   color: #434343;
 }
-
-
-
-/*ВОПРОСЫ */
-
+                           /*ВОПРОСЫ */
 .question{
   position: relative;
   width: 489px;
@@ -522,8 +554,7 @@ border: none;
   display: flex;
   flex-direction: column;
   position: relative;
-    top: 500px;
-
+  top: 500px;
 }
 .questions p{
   display: flex;
@@ -554,8 +585,7 @@ border: none;
   line-height: 160%;
   color: #434343;
   }
-
-  /* КОЛАЖ С ИНСТОЙ  */
+                            /* КОЛАЖ С ИНСТОЙ  */
 .instpets{
   position: relative;
   width: 1440px;
@@ -576,8 +606,6 @@ border: none;
   font-weight: 600;
   font-size: 20px;
   line-height: 115%;
-  /* identical to box height, or 23px */
-  
   text-align: center;
   text-transform: uppercase;
 }
@@ -599,8 +627,7 @@ border: none;
 
 }
 
-
-/* ОТЗЫВЫ */
+                            /* Отзывы "клиентов" */
 .reviews{
   position: relative;
   width: 608px;
@@ -625,39 +652,40 @@ border: none;
   width: 608px;
   height: 50px;
   left: 550px;
-  
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 140%;
   margin: 0%;
-  /* or 25px */
 }
 
 
+                           /* Блоки футажа */
 
-
-/* блоки футажа */
-
-
+.footagepepo{
+  position: relative;
+  top: 110px;
+  left: 164px;
+  width: 1112px;
+  overflow: hidden;
+  border-radius: 10px;
+}
 .footageall{
   position: relative;
-    top: 110px;
-    left: 164px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 2345px;
-    height: 200px;
+  /*top: 110px;*/
+  /*left: 164px;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 2345px;
+  height: 200px;
 }
 .footage{
   display: flex;
   position: relative;
   width: 445px;
   height: 200px;
-  /*left: 164px;*/
-  /*top: 110px;*/
   background: #F7F5F3;
   border-radius: 10px;
 }
@@ -667,7 +695,6 @@ border: none;
   height: 160px;
   left: 20px;
   top: 20px;
-
   background: #FFFFFF;
   border-radius: 10px;
 }
@@ -697,7 +724,6 @@ border: none;
   line-height: 150%;
   color: #434343;
 }
-
 .swapbuttons{
   display: flex;
   flex-direction: row;
@@ -711,7 +737,6 @@ border: none;
 
 }
 .swapbuttons p1{
-  
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -722,8 +747,7 @@ border: none;
   order: 1;
   flex-grow: 0;
 }
-
-/* ПОДВАЛ ЕБАНЫЙ */
+                           /* Подвал сайта */
 
 footer{
   position: relative;
@@ -740,8 +764,6 @@ footer{
   height: 206px;
   border-bottom: 1px solid #F9F9F9;
 }
-
-
 .footerdown{
   position: relative;
   height: 51px;
@@ -768,17 +790,13 @@ footer{
   position: absolute;
   left: 893px;
   top: 20px;
-  
 }
 .lapaconf{
   position: absolute;
   left: 1113px;
   top: 20px;
 }
-
-
-
-/* левая часть футра */
+                           /* левая часть футра */
 
 .footer_about{
   display: flex;
@@ -818,9 +836,7 @@ footer{
   color: #FFFFFF;
   margin: 0%;
 }
-
-/* правая  часть футра */
-
+                           /* правая  часть футра */
 
 .footer_right{
   position: absolute;
@@ -858,7 +874,7 @@ footer{
 }
 .basic{
   display: flex;
-    flex-direction: column;
+  flex-direction: column;
   height: 122px;
   width: 115px;
   left: 534px;
@@ -866,10 +882,9 @@ footer{
   border-radius: 0px;
   
 }
-
 .additionaly{
   display: flex;
-    flex-direction: column;
+  flex-direction: column;
   height: 122px;
   width: 146px;
   left: 705px;
@@ -877,10 +892,9 @@ footer{
   border-radius: 0px;
 
 }
-
 .salon{
   display: flex;
-    flex-direction: column;
+  flex-direction: column;
   height: 122px;
   width: 88px;
   left: 917px;
@@ -888,13 +902,20 @@ footer{
   border-radius: 0px;
 
 }
-
 .contacts_footer{
   display: flex;
-    flex-direction: column;
+  flex-direction: column;
   height: 122px;
   width: 203px;
   left: 1071px;
   top: 40px;
   border-radius: 0px;
 }
+
+/*переход на таблет  */
+@media (min-width: 768px) and (max-width: 1440px) {
+
+  
+  
+  
+  }   
