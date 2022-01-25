@@ -578,11 +578,12 @@ left: 666px;
   color: #434343;
   padding-bottom:8px;
   border-bottom: 1px solid #D2D2D2; 
+  cursor: pointer;
 }
 .questions p1{
-  display: none;
+  display: block;
   width: 692px;
-  height: 130px;
+  /*height: 130px;*/
   margin-left: 367px; 
   font-family: Proxima Nova;
   font-style: normal;
@@ -591,6 +592,18 @@ left: 666px;
   line-height: 160%;
   color: #434343;
   }
+.answer1{
+  display: none;
+}
+.answer2{
+  display: none;
+}
+.answer3{
+  display: none;
+}
+.answer4{
+  display: none;
+}
                             /* КОЛАЖ С ИНСТОЙ  */
 .instpets{
   position: relative;

@@ -6,9 +6,45 @@ function Menu (){
         else{
             imenu.style.display = "flex";}
 }
- 
+
+function anser1(){
+    let emenu = document.getElementById('answer1');
+    if (emenu.style.display == "block"){
+        emenu.style.display = "none"; 
+    }
+    else{
+        emenu.style.display = "block";}
+}
+function anser2(){
+    let emenu = document.getElementById('answer2');
+    if (emenu.style.display == "block"){
+        emenu.style.display = "none"; 
+    }
+    else{
+        emenu.style.display = "block";}
+}
+function anser3(){
+    let emenu = document.getElementById('answer3');
+    if (emenu.style.display == "block"){
+        emenu.style.display = "none"; 
+    }
+    else{
+        emenu.style.display = "block";}
+}
+function anser4(){
+    let emenu = document.getElementById('answer4');
+    if (emenu.style.display == "block"){
+        emenu.style.display = "none"; 
+    }
+    else{
+        emenu.style.display = "block";}
+}
 
 
+
+
+
+/*
     let i = 1;
     for(let li of carousel.querySelector('li')) {
       li.style.position = 'relative';
@@ -16,7 +52,7 @@ function Menu (){
       i++;
     }
 
-    /* конфигурация */
+    // конфигурация 
     let width = 150; // ширина картинки
     let count = 2; // видимое количество изображений
 
@@ -40,3 +76,5 @@ function Menu (){
       position = Math.max(position, -width * (listElems.length - count));
       list.style.marginLeft = position + 'px';
     };
+
+    */
