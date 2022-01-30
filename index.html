@@ -42,7 +42,7 @@
     </div>
                                 <!-- навигация по сайту   -->
         <nav class="menu"> 
-            <div onclick="Menu()" id="menus" class="services"><a>Услуги <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <div class="services"><a>Услуги <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M11 1.50024L6 6.50024L1 1.50024" stroke="#434343" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg></a>
                 <div id="servicesblock" class="servicesblock">
@@ -172,8 +172,20 @@
             мы сделали специальный прайс-лист по породам, где 
             есть точная стоимость услуги для вашего любимца </p>
             <div class="search">
-                <div class="Dog">Собака </div>
-                <div class="Cat">Кошка </div>
+
+            <div class="switchbutton">
+                <div class="container">
+                    <div class="button" id='button-container'>
+                    <div id='my-button' class="button-element">
+                      <p1 id='ButtDoge'>Собака</p1>
+                    </div>
+                    <p1 id='ButtCat'>Кошка</p1>
+                  </div>
+                  
+                  </div>
+
+            </div>
+
                 <input class="AcceptBreed" type="text" name="q" value="" placeholder="Введите породу">
                 <button class="PickBreed">подобрать </button>
             </div>
@@ -272,14 +284,16 @@
                                                                               <!--  КОЛЛАЖ -->
     <div class="instpets">
         <div class="instagrammsale"> <p>Отметьте нас в инстаграме <p1>@lapagrooming</p1> и получите скидку 10<p1>% на следующий визит!</p1></p></div>
-        <div class="fotocol"> 
-            <img src="Images/Pets/pet1.png">
-            <img src="Images/Pets/pet2.png">
-            <img src="Images/Pets/pet3.png">
-            <img src="Images/Pets/pet4.png">
-            <img src="Images/Pets/pet5.png">
-            <img src="Images/Pets/pet6.png">
-            <img src="Images/Pets/pet7.png">
+        <div class="fotocolwidht">
+            <div class="fotocol"> 
+                <img src="Images/Pets/pet1.png">
+                <img src="Images/Pets/pet2.png">
+                <img src="Images/Pets/pet3.png">
+                <img src="Images/Pets/pet4.png">
+                <img src="Images/Pets/pet5.png">
+                <img src="Images/Pets/pet6.png">
+                <img src="Images/Pets/pet7.png">
+            </div>
         </div>
     </div>
 
@@ -289,7 +303,7 @@
         <h1>Отзывы</h1>
         <p>В нашем салоне работают отличные мастера и профессионалы груминга
             с большим опытом работы с различными животными</p>
-        <div class="footagepepo">  
+        <div class="footageanimal">  
             <div class="footageall">
                 <div class="footage">
                     <img src="Images/reviewPets/1.png">

@@ -120,12 +120,14 @@ header{
 .menu a:hover{
   color: #D0B08A;
 }
-.menu svg.hover{
-  color: #D0B08A;
+.menu a:hover svg path{
+  stroke: #D0B08A;
+}
+.services:hover .servicesblock{
+  display: flex;
 }
 .services{
   padding-left: 165px;
-  
 }
 .vacancy{
 padding-right: 165px;
@@ -324,10 +326,34 @@ padding-right: 165px;
 .search{
   display:flex
 }
-.Dog{ 
-  padding: 12px 20px;
-  background: #434343;
+/* начало кнопки */
+.switchbutton{
+  display: block;
+}
+
+.button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  width: 224px;
+  height: 42px;
+  background: #F7F5F3;
   border-radius: 6px;
+}
+
+.button-element {
+  width: 116px;
+  height: 42px;
+  background: #434343;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  transition: all 0.3s;
+  border-radius: 6px;
+}
+
+#ButtDoge {
   font-family: Proxima Nova;
   font-style: italic;
   font-weight: normal;
@@ -335,40 +361,36 @@ padding-right: 165px;
   line-height: 100%;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #FFFFFF;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0px 10px;
+  color: #fff;
 }
-.Cat{
-  padding: 12px 20px 12px 40px;
-  background: #F7F5F3;
-  border-radius: 6px;
-  position: static;
-  width: 69px;
-  height: 18px;
+
+#ButtCat {
   font-family: Proxima Nova;
   font-style: italic;
-  font-weight: 600;
+  font-weight: normal;
   font-size: 18px;
   line-height: 100%;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #434343;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0px 10px;
+  padding-left: 20px;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* конец кнопки */
+
 .AcceptBreed{
   padding: 12px 20px;
-  position: absolute;
-  width: 619px;
+  position: static;
+  width: 100%;
   height: 18px;
   background: #F7F5F3;
   border-radius: 6px;
-  position: static;
   font-family: Proxima Nova;
   font-style: italic;
   font-weight: normal;
@@ -377,9 +399,6 @@ padding-right: 165px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #949191;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
   margin: 0px 10px;
   outline: none;
   border: none;
@@ -458,7 +477,7 @@ padding-right: 165px;
 .workers{
   display: flex;
   position: absolute;
-  left: 386px;
+  right: 0px;
   /*width: 152px;*/
   height: 217px;
   text-align: center;
@@ -661,6 +680,9 @@ padding-right: 165px;
   letter-spacing: 0em;
   text-align: center;
 }
+.fotocolwidht{
+  display: block;
+}
 .fotocol{
   display: flex;
   position: relative;
@@ -675,12 +697,13 @@ padding-right: 165px;
   width: 608px;
   height: 365px;
   top: 820px;
+  left: 164px;
 }
 .reviews h1{
   position: absolute;
   width: 136px;
   height: 41px;
-  left: 164px;
+  /*left: 164px;*/
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: 600;
@@ -693,7 +716,8 @@ padding-right: 165px;
   position: absolute;
   width: 608px;
   height: 50px;
-  left: 550px;
+  /*left: 550px;*/
+  left: 386px;
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: normal;
@@ -703,10 +727,10 @@ padding-right: 165px;
 }
                            /* Блоки футажа */
 
-.footagepepo{
+.footageanimal{
   position: relative;
   top: 110px;
-  left: 164px;
+  /*left: 164px;*/
   width: 1112px;
   overflow: hidden;
   border-radius: 10px;
@@ -772,7 +796,8 @@ padding-right: 165px;
   position: absolute;
   width: 107.38px;
   height: 16px;
-  left: 666px;
+  /*left: 666px;*/
+  left: 502px;
   top: 349px;
 
 }
@@ -961,13 +986,49 @@ footer{
 }
 
 /*переход на таблет  */
-@media (min-width: 768px) and (max-width: 1440px) {
+@media (min-width: 900px) and (max-width: 1440px) {
 
-  
-  
-  
+  .uptitle{
+    display: flex;
+    justify-content: space-around;
+  }
+  .Logo {
+    /* position: absolute; */
+    /* left: 11.46%; */
+    /* right: 70.14%; */
+    top: 0%;
+    padding-left: 0px;
+    /* bottom: 73.94%; */
+    left: 6%;
+
+}
+.title{
+  width: 100%;
+}
+.menu{
+  width: 100%;
+  justify-content: space-evenly;
+}
+.contactss {
+  right: 6%;
+}
+.vacancy {
+   padding-right: 0;
+}
+.services {
+    padding-left: 0px;
+    
+  }
+
+  .main-sevrvise {
+    width: 942px;
+}
+
+  .categories {
+    
+    width: 1079px;
+    
+}
 
 
-
-
-}   
+}
