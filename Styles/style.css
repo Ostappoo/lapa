@@ -13,6 +13,11 @@ body{
   flex-direction: column;
   align-items: center;
 }
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 header{
   width: 100%;
@@ -261,11 +266,8 @@ padding-right: 165px;
   position: relative; /*удалить */
   width: 939px;
   height: 522px;
-  left: 245px;
   top: -100px;
   text-align: center;
-  /*margin: -137px auto; */
-  /* left:100px;*/
 }
 .main-sevrvise h1{
   height: 28px;
@@ -301,7 +303,6 @@ padding-right: 165px;
   flex-direction: column;
   width: 1056px;
   height: 258px;
-  left: 165px;
   top: 40px;
 
 }
@@ -444,7 +445,6 @@ padding-right: 165px;
   position: relative;
   width: 1109px;
   height: 628px;
-  left: 165px;
   top: 260px;
   
 }
@@ -530,7 +530,6 @@ padding-right: 165px;
   position: relative;
   width: 1111px;
   height: 524px;
-  left: 164px;
   top: 365px;
   flex-direction: column;
   /* margin: auto;*/
@@ -576,7 +575,7 @@ padding-right: 165px;
                            /* внутренний блок МАСТЕРА  */
 .aboutworker{
   position: relative;
-  width: 1110px;
+  width: 100%;
   height: 278px;
   top: 180px;
 }
@@ -660,7 +659,6 @@ padding-right: 165px;
   position: relative;
   width: 489px;
   height: 37px;
-  left: 475px;
   top: 460px;
   font-family: Proxima Nova;
   font-style: normal;
@@ -683,7 +681,6 @@ padding-right: 165px;
   position: relative;
   width: 706px;
   height: auto;
-  left: 367px;
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: 600;
@@ -698,7 +695,6 @@ padding-right: 165px;
   display: block;
   width: 692px;
   /*height: 130px;*/
-  margin-left: 367px; 
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: normal;
@@ -721,17 +717,23 @@ padding-right: 165px;
                             /* КОЛАЖ С ИНСТОЙ  */
 .instpets{
   position: relative;
-  width: 1440px;
+  width: 100%;
   height: 268px;
   left: 0px;
   top: 660px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
 }
 .instagrammsale{
-  position: relative;
+  /*position: relative; */
   width: 974px;
   height: 23px;
-  left: 233px;
+  
   top: 0;
+  display: flex;
+  justify-content: center;
 }
 .instagrammsale p{
   font-family: Proxima Nova;
@@ -752,15 +754,18 @@ padding-right: 165px;
   text-align: center;
 }
 .fotocolwidht{
-  display: block;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 .fotocol{
   display: flex;
-  position: relative;
+  /* position: relative; */
   margin-top: 40px;
-  width: 308px;
   height: 205px;
-
+  flex-flow: wrap;
+  overflow: hidden;
+  justify-content: center;
 }
                             /* Отзывы "клиентов" */
 
@@ -777,10 +782,10 @@ padding-right: 165px;
 
 .reviews{
   position: relative;
-  width: 608px;
+  /*width: 608px; */
   height: 365px;
   top: 820px;
-  left: 164px;
+  /* left: 164px; */
 }
 .reviews h1{
   position: absolute;
@@ -808,99 +813,7 @@ padding-right: 165px;
   line-height: 140%;
   margin: 0%;
 }
-                           /* Блоки футажа */
-
-.footageanimal{
-  position: relative;
-  top: 110px;
-  /*left: 164px;*/
-  width: 1112px;
-  overflow: hidden;
-  border-radius: 10px;
-}
-.footageall{
-  position: relative;
-  /*top: 110px;*/
-  /*left: 164px;*/
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  width: 2345px;
-  height: 200px;
-}
-.footage{
-  display: flex;
-  position: relative;
-  width: 445px;
-  height: 200px;
-  background: #F7F5F3;
-  border-radius: 10px;
-}
-.footage img{
-  position: absolute;
-  width: 160px;
-  height: 160px;
-  left: 20px;
-  top: 20px;
-  background: #FFFFFF;
-  border-radius: 10px;
-}
-.footage h1{
-  position: absolute;
-  width: 119px;
-  height: 20px;
-  left: 200px;
-  top: 41px;
-  font-family: Proxima Nova;
-  font-style: italic;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 100%;
-  color: #434343;
-}
-.footage p{
-  position: absolute;
-  width: 211px;
-  height: 96px;
-  left: 200px;
-  top: 73px;
-  font-family: Proxima Nova;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 150%;
-  color: #434343;
-}
-.swapbuttons{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 0px;
-  position: absolute;
-  width: 107.38px;
-  height: 16px;
-  /*left: 666px;*/
-  left: 502px;
-  top: 349px;
-
-}
-.swapbuttons p1{
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 100%;
-  color: #434343;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-
-
                       /* Свайпер АНИМИРОВАНЫЙ */
-
-
-
 
 .reviewsnew{
   position: relative;
@@ -912,29 +825,42 @@ padding-right: 165px;
 }
 
 .swiper {
-  width: 1112px;
-  margin: 49px auto;
+  width: 100%;
+  height: 100%;
   min-width: 0;
   margin-top: 0;
   border-radius: 10px;
 }
-
+.swiper-slide {
+  width: 450px ;
+}
+.swiper-slide {
+  display: block;
+  max-width: 100%;
+  height:auto;
+  }
+  .swiper.width{
+    width: 450;
+  }
 
 .swiper-wrapper{
   padding: 30px;
 }
 
 /* кнопки  */
+.buttonsposition{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
 .buttons{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 0px;
-  position: absolute;
   width: 107.38px;
   height: 16px;
-  left: 502px;
-  top: 256px;
+  
 
 }
 .swapbuttons-next{
@@ -1013,8 +939,6 @@ padding-right: 165px;
 }
 
 
-
-
                            /* Подвал сайта */
 footer{
   position: relative;  
@@ -1062,6 +986,19 @@ footer{
   text-transform: uppercase;
   color: #FFFFFF;
 }
+.about-footer-down{
+  display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 893px;
+    width: 386px;
+    /* height: 20px; */
+    align-items: center;
+    top: 20px;
+
+
+}
+/*
 .lapacookie{
   position: absolute;
   left: 893px;
@@ -1072,6 +1009,7 @@ footer{
   left: 1113px;
   top: 20px;
 }
+*/
                            /* левая часть футра */
 
 .footer_about{
@@ -1189,20 +1127,20 @@ footer{
 }
 
 /*переход на таблет  */
-@media (min-width: 900px) and (max-width: 1440px) {
+@media (min-width: 1000px) and (max-width: 1440px) {
 
-  .uptitle{
-    display: flex;
-    justify-content: space-around;
-  }
-  .Logo {
-    /* position: absolute; */
-    /* left: 11.46%; */
-    /* right: 70.14%; */
-    top: 0%;
-    padding-left: 0px;
-    /* bottom: 73.94%; */
-    left: 6%;
+.uptitle{
+  display: flex;
+  justify-content: space-around;
+}
+.Logo {
+  /* position: absolute; */
+  /* left: 11.46%; */
+  /* right: 70.14%; */
+  top: 0%;
+  padding-left: 0px;
+  /* bottom: 73.94%; */
+  left: 6%;
 
 }
 .title{
@@ -1216,22 +1154,103 @@ footer{
   right: 6%;
 }
 .vacancy {
-   padding-right: 0;
+  padding-right: 0;
 }
 .services {
-    padding-left: 0px;
-    
-  }
-
-  .main-sevrvise {
-    width: 942px;
+  padding-left: 0px; 
 }
 
-  .categories {
-    
-    width: 1079px;
-    
+.main-sevrvise {
+  width: 942px;
 }
+footer{
+  display: block;
+}
+.footerall{
+  width: 100%;
+}
+.footerup{
+  display: flex;
+  justify-content: space-around;
+}
+.footer_about{
+  left: 0;
+  position: relative;
+}
+.footer_right {
+  right: 0;
+  position: relative;
+}
+.footerdown{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.lapagrooming{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.about-footer-down{
+  position: relative;
+  top: 0px;
+  left: 0;
+}
+.staff{
+  width: 1000px;
+}
+.aboutworker {
+  width: 1000px
+}
+.aboutworker p {
+  width: 616px;
+}
+.reviewsnew {
+  width: 1000px
+}
+.categories{
+  width: 1000px;
+  
+}
+.category1{
+  width: 399px;
+  border-radius: 10px;
+}
+.category2{
+  width: 250px;
+  border-radius: 10px;
+
+}
+.category3{
+  width: 310px;
+  border-radius: 10px;
+}
+.category4{
+  width: 190px;
+  border-radius: 10px;
+}
+.category5{
+  width: 316px;
+  border-radius: 10px;
+}
+.category6{
+  width: 450px;
+  border-radius: 10px;
+}
+.checkbreed{
+  width: 972px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 }

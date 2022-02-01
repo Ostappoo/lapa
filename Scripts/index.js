@@ -19,6 +19,7 @@ function menuid (element_id){
 
 
 /* кнопка */
+/*
 let button = document.getElementById('button-container')
 let ButtDoge = document.getElementById('ButtDoge')
 let ButtCat = document.getElementById('ButtCat')
@@ -40,13 +41,17 @@ button.addEventListener('click', function(){
   }
     
 })
-
+*/
 
 const swiper = new Swiper('.swiper', {
   slidesPerView: 2,
-  spaceBetween: -80,
+  spaceBetween: 20,
+  autoResize: false,
   slidesPerGroup: 1,
+  resistanceRatio: 1,
   autoHeight: false,
+  autoResize: false,
+
   pagination: {
       el: '.swiper-pagination',
       type: 'fraction',
@@ -56,4 +61,20 @@ const swiper = new Swiper('.swiper', {
       nextEl: '.swapbuttons-next',
       prevEl: '.swapbuttons-prev',
   },
+  breakpoints: {
+    320:{
+      slidesPerView: 1,
+    },
+    480:{
+      slidesPerView: 2,
+      spaceBetween: -80,
+    },
+    992:{
+      slidesPerView: 2,
+      spaceBetween: -80,
+    },
+    
+  }
 }); 
+swiper.width = 450;
+
