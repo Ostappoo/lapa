@@ -982,31 +982,34 @@ padding-right: 165px;
   background: #FFFFFF;
   border-radius: 10px;
 }
-.swiper-slide-content h1{
+.swiper-slide-content h2{
   position: absolute;
   width: 119px;
   height: 20px;
   left: 200px;
-  top: 16px;
+  top: 26px;
   font-family: Proxima Nova;
   font-style: italic;
   font-weight: 600;
   font-size: 20px;
   line-height: 100%;
   color: #434343;
+  margin: 0;
+  
 }
 .swiper-slide-content p{
   position: absolute;
-  width: 211px;
+  width: 214px;
   height: 96px;
   left: 200px;
-  top: 48px;
+  top: 68px;
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 150%;
   color: #434343;
+  margin: 0;
 }
 
 

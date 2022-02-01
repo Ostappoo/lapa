@@ -44,7 +44,7 @@ button.addEventListener('click', function(){
 
 const swiper = new Swiper('.swiper', {
   slidesPerView: 2,
-  spaceBetween: -70,
+  spaceBetween: -80,
   slidesPerGroup: 1,
   autoHeight: false,
   pagination: {
