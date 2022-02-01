@@ -1,9 +1,12 @@
-@font-face {
+/*@font-face {
   font-family: "Proxima Nova"; 
   src: url("../Fonts/proxima-nova-regular.ttf") format("truetype"); 
+}*/
+@font-face {
+  font-family: "Proxima Nova"; 
+  src: url("../Fonts/proximanova_regular.ttf") format("opentype"); 
 }
-         
-                                                    
+                                           
 body{
   margin: 0%;
   display: flex;
@@ -242,6 +245,10 @@ padding-right: 165px;
   width: 110px;
   height: 110px;
 }
+.mainbutton:hover{
+  border-radius: 140px;
+  box-shadow: 0px 4px 34px rgba(134, 125, 115, 0.25);
+}
 
                            /* БЛОК СЕРВИСОВ   СДЕЛАТЬ ЦЕНТРИРОВАНИЕ  _ */
 
@@ -427,7 +434,7 @@ padding-right: 165px;
   outline: none;
   border: none;
 }
-                           /* ЛИНК КАТЕГОРИЙ -  не сделаны _ */
+                           /* ЛИНК КАТЕГОРИЙ - _ */
 .categories{
   display: flex;
   justify-content: space-between;
@@ -441,6 +448,21 @@ padding-right: 165px;
   top: 260px;
   
 }
+
+.category1:hover, 
+.category2:hover, 
+.category3:hover, 
+.category4:hover, 
+.category5:hover, 
+.category5:hover, 
+.category6:hover{
+  transform:  translateY(-4px);
+  box-shadow: 0 4px 6px -7px rgb(134 125 115 / 10%),
+   0 40px 30px -9px rgb(134 125 115 / 20%);
+}
+
+
+
 .categories p{
   position: absolute;
   padding-left: 40px;
@@ -454,6 +476,54 @@ padding-right: 165px;
   text-transform: uppercase;
   color: #434343;
 }
+.category1{
+  width: 445px;
+  height: 300px;
+  background-image: url("../Images/Categories/KindGard.png");
+}
+
+.category2{
+  width: 270px;
+  height: 300px;
+  background-image: url("../Images/Categories/cyno.png")
+}
+.category3{
+  width: 338px;
+  height: 300px;
+  background-image: url("../Images/Categories/SPA.png")
+}
+.category4{
+  width: 210px;
+  height: 300px;
+  background-image: url("../Images/Categories/Promo.png")
+}
+.category5{
+  width: 345px;
+  height: 300px;
+  background-image: url("../Images/Categories/Coloring.png")
+}
+.category6{
+  width: 498px;
+  height: 300px;
+  background-image: url("../Images/Categories/Prep.png")
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                            /* БЛОК МАСТЕРОВ  не сделаны _ */
 .staff{
   display: flex;
@@ -693,6 +763,18 @@ padding-right: 165px;
 
 }
                             /* Отзывы "клиентов" */
+
+
+
+
+
+
+
+
+
+
+
+
 .reviews{
   position: relative;
   width: 608px;
@@ -813,6 +895,123 @@ padding-right: 165px;
   order: 1;
   flex-grow: 0;
 }
+
+
+                      /* Свайпер АНИМИРОВАНЫЙ */
+
+
+
+
+.reviewsnew{
+  position: relative;
+    top: 55px;
+    left: 0px;
+    width: 1112px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.swiper {
+  width: 1112px;
+  margin: 49px auto;
+  min-width: 0;
+  margin-top: 0;
+  border-radius: 10px;
+}
+
+
+.swiper-wrapper{
+  padding: 30px;
+}
+
+/* кнопки  */
+.buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px;
+  position: absolute;
+  width: 107.38px;
+  height: 16px;
+  left: 502px;
+  top: 256px;
+
+}
+.swapbuttons-next{
+  content: 'next';
+  cursor: pointer;
+  z-index: 11;
+}
+.swapbuttons-prev{
+  content: 'prev';
+  cursor: pointer;
+  z-index: 11;
+  
+}
+.swiper-pagination{
+  bottom: 0 !important;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 100%;
+  color: #434343;
+}
+
+.append-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* контент слайдера */
+.swiper-slide-content {
+  display: flex !important;
+  position: relative !important;
+  width: 445px !important;
+  height: 200px !important;
+  background: #F7F5F3!important;
+  border-radius: 10px!important;
+
+}
+.swiper-slide-content img{
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  left: 20px;
+  top: 20px;
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+.swiper-slide-content h1{
+  position: absolute;
+  width: 119px;
+  height: 20px;
+  left: 200px;
+  top: 16px;
+  font-family: Proxima Nova;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  color: #434343;
+}
+.swiper-slide-content p{
+  position: absolute;
+  width: 211px;
+  height: 96px;
+  left: 200px;
+  top: 48px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #434343;
+}
+
+
+
+
                            /* Подвал сайта */
 footer{
   position: relative;  

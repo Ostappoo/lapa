@@ -40,3 +40,20 @@ button.addEventListener('click', function(){
   }
     
 })
+
+
+const swiper = new Swiper('.swiper', {
+  slidesPerView: 2,
+  spaceBetween: -70,
+  slidesPerGroup: 1,
+  autoHeight: false,
+  pagination: {
+      el: '.swiper-pagination',
+      type: 'fraction',
+  },
+  /* стрелки */
+  navigation: {
+      nextEl: '.swapbuttons-next',
+      prevEl: '.swapbuttons-prev',
+  },
+}); 
