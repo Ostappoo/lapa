@@ -452,6 +452,9 @@ header{
 .checkbreed-image{
   position: absolute;
   left: 559px;
+  width: 448.15px;
+  height: 387.78px;
+  background-image: url("../Images/Desktop/checkbredim.png");
 }
                            /* Блок категорий услуг  */
 .categories{
@@ -793,7 +796,6 @@ header{
   top: 660px;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   align-items: center;
 }
 .instagrammsale{
@@ -1263,5 +1265,345 @@ footer{
 .checkbreed-image{
   left: 538px;
 }
+}
+
+
+
+@media (min-width: 8px) and (max-width: 1000px) {
+.backheader{
+  background-image: url("../Images/Tablet/Group1550.png");  
+  height: 711px;
+}
+.title{
+  width: 100%;
+}
+.Logo{
+  display: none;
+}
+.Logo-tablet{
+  display: block;
+}
+.menu-button-tablet{
+  display: block;
+}
+.menu{
+  display: none;
+}
+.about-tutle{
+  top: 0px;
+  width: 623px;
+  height: 88px;
+}
+.contactss{
+font-size: 12px;
+width: 344px;
+right: 142px;
+
+}
+.contactss a{
+font-size: 12px;
+}
+.about-tutle h1 {
+  font-family: Proxima Nova;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.about-tutle p1 {
+  font-family: Proxima Nova;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: center;
+}  
+.about-tutle p{
+  font-size: 16px;
+  line-height: 21px;
+}
+.mainbutton{
+  text-align: center;
+}
+.mainbutton svg{
+  width: 90px;
+  height: 90px;
+}
+                                        /*СДЕЛАТЬ */
+.mainbutton:hover{
+  border-radius: 140px;
+  box-shadow: 0px 4px 34px rgba(134, 125, 115, 0.25);
+}
+
+
+.main-sevrvise{
+  flex-direction: row;
+  width: 636px;
+  height: 691px;
+  top: -96px;
+}
+.main-sevrvise p {
+  width: 237px;
+}
+.checkbreed{
+  width: 629px;
+}
+.checkbreed h1 {
+  width: 470px;
+  font-size: 31px;
+}
+.checkbreed p{
+  width: 418px;
+}
+.checkbreed-image {
+ /* left: 440px;
+  top: 48px;*/
+  left: 369px;
+    top: 19px;
+  width: 276px;
+  height: 261px;
+  background-image: url("../Images/Tablet/cheakbreed_tablet.png")
+}
+.categories{
+  width: 678px;
+  height: 560px;
+}
+.category1{
+  width: 290px;
+  height: 270px;
+  background-image: url("../Images/Tablet/Frame1191.png")
+}
+.category2{
+  width: 201px;
+  height: 270px;
+  background-image: url("../Images/Tablet/Frame1220.png")
+}
+.category3{
+  width: 147px;
+  height: 270px;
+  background-image: url("../Images/Tablet/Frame1221.png")
+}
+.category4{
+  width: 147px;
+  height: 270px;
+  background-image: url("../Images/Tablet/Frame1222.png")
+}
+.category5{
+  width: 220px;
+  height: 270px;
+  background-image: url("../Images/Tablet/Frame1223.png")
+}
+.category6{
+  width: 271px;
+  height: 270px;
+  background-image: url("../Images/Tablet/Frame1224.png")
+}
+.categories p{
+  width: 235px;
+  height: 56px;
+  font-size: 20px;
+  padding-left: 24px;
+}
+.staff {
+  width: 681px;
+  height: 602px;
+}
+.workers{
+  position: unset;
+}
+.aboutworker{
+  top: 0px;
+}
+.worker1, .worker2, .worker3, .worker4 {
+  width: 206px;
+  height: 278px;
+}
+.aboutworker h2 {
+  left: 237px;
+}
+.aboutworker p1 {
+  left: 237px;
+  top: 75px;
+}
+.aboutworker p2 {
+  top: 75px;
+  left: 523px;
+}
+.aboutworker p{
+  left: 237px;
+  width: 438px;
+  height: 110px;
+  top: 118px;
+}
+.worker-block2 p2{
+  left: 373px;
+}
+.worker-block2 p3{
+  left: 544px;
+  top: 75px;
+}
+.questions p{
+  width: 678px;
+}
+.questions p1{
+  width: 678px;
+}
+.instagrammsale{
+  width: 597px;
+  height: 46px;
+}
+.instagrammsale p{
+  line-height: 140%;
+}
+.reviews{
+  width: 690px;
+}
+.reviews p{
+  left: 206px;
+  width: 474px;
+  height: 44px;
+  font-size: 16px;
+}
+.reviews-swiper{
+  width:600px;
+}
+
+footer{
+  height: 657px;
+ 
+}
+.footerall{
+  display: block;
+    flex-direction: unset;
+    flex-wrap: unset;
+    position: relative;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    width: 100%;
+    height: 100%;
+    background: #434343;
+}
+.footerup{
+  height: 602px;
+    width: 100%;
+    /* width: 521px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer_about{
+  height: 100px;
+    width: 678px;
+    left: 0;
+    position: relative;
+    display: flex;
+    top: 40px;
+    justify-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.footer_about svg{
+  width: 218px;
+  height: 67px;
+
+    padding-bottom: unset;
+}
+.footer_about h1{
+  position: unset;
+  height: 23px;
+  width: 321px;
+  left: 281px;
+  top: 0;
+  margin: unset;
+}
+.footer_about p{
+  position: unset;
+  width: 359px;
+  left: 283px;
+  top: 39px;
+  font-size: 16px;
+  line-height: 140%;
+}
+.footer_right{
+  position: unset;
+  display: unset;
+  width: 0;
+  top: 0;
+  right: 0;
+  margin: 0;
+}
+.basic{
+  position: absolute;
+    left: 15%;
+    top: 178px;
+    width: 132px;
+}
+.footer_right h1{
+  font-size: 18px;
+}
+.footer_right a{
+  font-size: 16px;
+}
+.additionaly{
+  position: absolute;
+    left: 50%;
+    top: 178px;
+}
+.salon{
+  position: absolute;
+    left: 15%;
+    top: 380px;
+}
+.contacts_footer{
+  position: absolute;
+    left: 50%;
+    top: 380px;
+    width: 234px;
+}
+.footerdown{
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.lapagrooming{
+  position: unset;
+  font-size: 15px;
+}
+.about-footer-down{
+  width: 481px;
+  position: unset;
+}
+.category3 p{
+  width: 70px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }

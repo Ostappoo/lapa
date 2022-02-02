@@ -32,7 +32,6 @@ button.addEventListener('click', function(){
     
 })
 */
-
 /* Вопросы и ответы  */
 function menuid (element_id){   
     let obj = document.getElementById(element_id); 
@@ -96,8 +95,8 @@ const swiper = new Swiper('.swiper', {
       slidesPerView: 1,
     },
     480:{
-      slidesPerView: 2,
-      spaceBetween: -80,
+      slidesPerView: 1.2,
+      spaceBetween: 0,
     },
     992:{
       slidesPerView: 2,
