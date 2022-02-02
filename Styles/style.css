@@ -428,10 +428,8 @@ padding-right: 165px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #FFFFFF;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0px 10px;
+  
+  
   outline: none;
   border: none;
 }
@@ -782,8 +780,8 @@ padding-right: 165px;
 
 .reviews{
   position: relative;
-  /*width: 608px; */
-  height: 365px;
+  width: 994px;
+  height: 50px;
   top: 820px;
   /* left: 164px; */
 }
@@ -813,15 +811,17 @@ padding-right: 165px;
   line-height: 140%;
   margin: 0%;
 }
+
+
                       /* Свайпер АНИМИРОВАНЫЙ */
 
-.reviewsnew{
+.reviews-swiper{
   position: relative;
-    top: 55px;
-    left: 0px;
-    width: 1112px;
-    overflow: hidden;
-    border-radius: 10px;
+  top: 827px;
+  left: 0px;
+  width: 1440px;
+  overflow: hidden;
+  border-radius: 10px;
 }
 
 .swiper {
@@ -834,18 +834,18 @@ padding-right: 165px;
 .swiper-slide {
   width: 450px ;
 }
+
+
 .swiper-slide {
   display: block;
   max-width: 100%;
   height:auto;
-  }
-  .swiper.width{
-    width: 450;
-  }
+}
 
 .swiper-wrapper{
   padding: 30px;
 }
+
 
 /* кнопки  */
 .buttonsposition{
@@ -860,20 +860,19 @@ padding-right: 165px;
   padding: 0px;
   width: 107.38px;
   height: 16px;
-  
-
 }
 .swapbuttons-next{
   content: 'next';
   cursor: pointer;
   z-index: 11;
 }
+
 .swapbuttons-prev{
   content: 'prev';
   cursor: pointer;
   z-index: 11;
-  
 }
+
 .swiper-pagination{
   bottom: 0 !important;
   font-family: Inter;
@@ -891,12 +890,12 @@ padding-right: 165px;
 
 /* контент слайдера */
 .swiper-slide-content {
-  display: flex !important;
-  position: relative !important;
-  width: 445px !important;
-  height: 200px !important;
-  background: #F7F5F3!important;
-  border-radius: 10px!important;
+  display: flex ;
+  position: relative ;
+  width: 445px ;
+  height: 200px ;
+  background: #F7F5F3;
+  border-radius: 10px
 
 }
 .swiper-slide-content img{
@@ -921,7 +920,6 @@ padding-right: 165px;
   line-height: 100%;
   color: #434343;
   margin: 0;
-  
 }
 .swiper-slide-content p{
   position: absolute;
@@ -937,7 +935,6 @@ padding-right: 165px;
   color: #434343;
   margin: 0;
 }
-
 
                            /* Подвал сайта */
 footer{
@@ -1240,10 +1237,14 @@ footer{
 .checkbreed{
   width: 972px;
 }
+.servicesblock{
+  left: 55px;
+}
 
 
-
-
+.reviews-swiper{
+  width: 1000px;
+}
 
 
 

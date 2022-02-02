@@ -8,16 +8,6 @@
 }
 */
 
-/* Вопросы и ответы  */
-function menuid (element_id){   
-    let obj = document.getElementById(element_id); 
-        if (obj.style.display != "block") { 
-            obj.style.display = "block"; 
-        }
-    else obj.style.display = "none"; 
-}       
-
-
 /* кнопка */
 /*
 let button = document.getElementById('button-container')
@@ -42,6 +32,15 @@ button.addEventListener('click', function(){
     
 })
 */
+
+/* Вопросы и ответы  */
+function menuid (element_id){   
+    let obj = document.getElementById(element_id); 
+        if (obj.style.display != "block") { 
+            obj.style.display = "block"; 
+        }
+    else obj.style.display = "none"; 
+}       
 
 const swiper = new Swiper('.swiper', {
   slidesPerView: 2,
@@ -72,6 +71,10 @@ const swiper = new Swiper('.swiper', {
     992:{
       slidesPerView: 2,
       spaceBetween: -80,
+    },
+    1440:{
+      slidesPerView: 3,
+      spaceBetween: 0,
     },
     
   }
