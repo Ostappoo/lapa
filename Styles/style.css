@@ -21,31 +21,22 @@ main{
 
 header{
   width: 100%;
-    background: #F7F5F3;
-  /*
+  background: #F7F5F3;
+}
+.backheader{
   height: 900px;
   right: 0px;
   top: 0px;
   background: #F7F5F3;
-  background-image: url("../Images/Desktop/Group1548.png");
-  /*background-position: center; */
-}
-.backheader{
-
- 
-  height: 900px;
-    right: 0px;
-    top: 0px;
-    background: #F7F5F3;
-    background-image: url("../Images/Desktop/Group1548.png");  
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-repeat: no-repeat;
+  background-image: url("../Images/Desktop/Group1548.png");  
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-repeat: no-repeat;
 }
 
-                           /* БЛОК ТИТУЛА  ПЕРЕДЕЛАТЬ ВЕСЬ _ */
+                           /* блок титула */
 .title{
   position: relative;
   width: 1440px;
@@ -54,11 +45,18 @@ header{
 }
 .Logo{
   position: absolute;
-  /* left: 11.46%; */
-  /* right: 70.14%; */
   top: 0%;
   padding-left: 165px;
-  /* bottom: 73.94%;*/
+}
+.Logo-tablet{
+  display: none;
+  position: absolute;
+  left: 45px;
+}
+.Logo-mobile{
+  position: absolute;
+  left: 20px;
+  display: none;
 }
 .contactss{
   display: flex;
@@ -89,16 +87,14 @@ header{
   text-transform: uppercase;
   color: #434343;
 }
-                           /* БЛОК МЕНЮ  ПЕРЕДЕЛАТЬ ВЕСЬ  */
+                           /* Блок меню */
 .menu{
   position: absolute;
   display: flex;
   width: 1440px;
   height: 58px;
-  /* left: 8px; */
   top: 48px;
   border-top: 1px solid #D2D2D2;
-  /*border-bottom: 1px solid #D2D2D2;*/
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
@@ -121,10 +117,8 @@ header{
   flex: none;
   order: 0;
   flex-grow: 0;
-  /*margin: 0px 12px;*/
   text-decoration: none;
   cursor: pointer;
-  
 }
 .menu a:hover{
   color: #D0B08A;
@@ -139,10 +133,10 @@ header{
   padding-left: 165px;
 }
 .vacancy{
-padding-right: 165px;
+  padding-right: 165px;
 }
 
-/* блок меню */
+/* блок вылезающего меню */
 
 .servicesblock{
   display: none;
@@ -152,14 +146,8 @@ padding-right: 165px;
   left: 132px;
   top: 31px;
   background-image: url("../Images/backsvg.svg");
-  /*display: flex;*/
   justify-content: space-evenly;
-  /*background: #FFFFFF;
-  border: 1px solid #EFEFEF;
-  box-sizing: border-box;
-  border-radius: 10px;*/
-  z-index: 9;
-  
+  z-index: 1;
 }
 .servicesblock p1{
   font-family: Proxima Nova;
@@ -198,19 +186,133 @@ padding-right: 165px;
   flex-direction: column;
   justify-content: space-around;
 }
+/* Блок вылезающего меню */
+.menu-button-tablet{
+  position: absolute;
+  right: 45px;
+  display: none;
+}
+                                                /* блок вылезающего меню */
 
+.menu-tablet-drop{
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 1024px;
+  left: 0px;
+  top: 0px;
+  background: rgba(0, 0, 0, 0.42);
+  mix-blend-mode: normal;
+  backdrop-filter: blur(5px);
+  z-index: 50;
+  margin-top: -20px;
+}
+.tablet-left-side{
+  position: fixed;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background: #FFFFFF;
+}
+.menu-tablet-header{
+  width: 100%;
+  height: 40px;
+  position: relative;
+}
+.menu-tablet-logo{
+  position: absolute;
+  left: 45px;
+  top: 18px;
+}
+.menu-tablet-exit{
+  position: absolute;
+  right: 22px;
+  top: 17px;
+}
 
-
+ /* Сервисы */
+.menu-tablet-services{
+  position: relative;
+  top: 22px;
+  display: flex;
+  flex-direction: column;
+  height: 290px;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+.menu-tablet-drop h1{
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #434343;
+  padding-left: 46px;
+}
+.menu-tablet-drop a{
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 100%; 
+  color: #434343;
+  padding-left: 46px;
+}
+.menu-tablet-h1, .menu-tablet-prices, .menu-tablet-grooming, .menu-tablet-cats,
+.menu-tablet-dogs{
+  height: 58px;
+  display: flex;
+  align-items: center;
+}
+.menu-tablet-border{
+  opacity: 0.2;
+  margin: -1px 0;
+  border: 1px solid #949191;
+}
+ /* Дополнительно*/
+.menu-tablet-additionally{
+  position: relative;
+  height: 464px;
+  top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.menu-tablet-h2, .menu-tablet-stocks, .menu-tablet-cynolist,
+.menu-tablet-garden, .menu-tablet-spa, .menu-tablet-vacancy,
+.menu-tablet-coloring, .menu-tablet-masters{
+  height: 58px;
+  display: flex;
+  align-items: center;
+}
+ /* футер*/
+.menu-tablet-footer{
+  position: relative;
+  width: 100%;
+  height: 205px;
+  top: 13px;
+  background: #434343;
+}
+.menu-tablet-contacts{
+  position: relative;
+  top: 20px;
+}
+.menu-tablet-contacts h1{
+  color: #FFFFFF !important;
+}
+.menu-tablet-contacts p{
+  color: #FFFFFF !important;
+  padding-left: 46px;
+}
+/* Текст внутри хедера */
 .about-tutle{
   position: relative;
   width: 888px;
   height: 212px;
-  /*left: 276px;*/
   top: 100px;
-  /*  
-  margin: 100px auto;
-  */
 }
+
 .about-tutle h1{
   font-family: Proxima Nova;
   font-size: 57px;
@@ -246,7 +348,6 @@ padding-right: 165px;
 .mainbutton{
   position: relative;
   top: 126px;
-  /*left: 666px;*/
   width: 110px;
   height: 110px;
 }
@@ -254,8 +355,7 @@ padding-right: 165px;
   border-radius: 140px;
   box-shadow: 0px 4px 34px rgba(134, 125, 115, 0.25);
 }
-
-                           /* БЛОК СЕРВИСОВ   СДЕЛАТЬ ЦЕНТРИРОВАНИЕ  _ */
+                           /* Блок сервисов */
 
 .main-sevrvise{
   display: flex;
@@ -263,7 +363,7 @@ padding-right: 165px;
   align-content: space-between;
   flex-wrap: wrap;
   justify-content: space-between;
-  position: relative; /*удалить */
+  position: relative; 
   width: 939px;
   height: 522px;
   top: -100px;
@@ -295,7 +395,7 @@ padding-right: 165px;
   letter-spacing: 0em;
   text-align: center;
 }
-                           /* БЛОК ПОИСКА ПО ПОРОДАМ  не сделанЫ СТИЛИ  _ */
+                           /* Блок Подбора ухода  */
 
 .checkbreed{
   display: flex;
@@ -304,7 +404,6 @@ padding-right: 165px;
   width: 1056px;
   height: 258px;
   top: 40px;
-
 }
 .checkbreed h1{
   width: 540px;
@@ -331,92 +430,11 @@ padding-right: 165px;
   color: #434343;
   margin-bottom: 31px;
 }
-                           /* Классы категорий поиска  */
 .search{
   display:flex
 }
-/* начало кнопки */
-.switchbutton{
-  display: block;
-}
-
-.button {
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  width: 224px;
-  height: 42px;
-  background: #F7F5F3;
-  border-radius: 6px;
-}
-
-.button-element {
-  width: 116px;
-  height: 42px;
-  background: #434343;
-  
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-  transition: all 0.3s;
-  border-radius: 6px;
-}
-
-#ButtDoge {
-  font-family: Proxima Nova;
-  font-style: italic;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 100%;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: #fff;
-}
-
-#ButtCat {
-  font-family: Proxima Nova;
-  font-style: italic;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 100%;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: #434343;
-  padding-left: 20px;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* конец кнопки */
-
-.AcceptBreed{
+.PickBreed {
   padding: 12px 20px;
-  position: static;
-  width: 100%;
-  height: 18px;
-  background: #F7F5F3;
-  border-radius: 6px;
-  font-family: Proxima Nova;
-  font-style: italic;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 100%;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: #949191;
-  margin: 0px 10px;
-  outline: none;
-  border: none;
-}
-.PickBreed{
-  padding: 12px 20px;
-  /*position: absolute;
-  width: 152px;
-  height: 42px;*/
   background: #434343;
   border-radius: 6px;
   position: static;
@@ -428,12 +446,14 @@ padding-right: 165px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #FFFFFF;
-  
-  
   outline: none;
   border: none;
 }
-                           /* ЛИНК КАТЕГОРИЙ - _ */
+.checkbreed-image{
+  position: absolute;
+  left: 559px;
+}
+                           /* Блок категорий услуг  */
 .categories{
   display: flex;
   justify-content: space-between;
@@ -446,7 +466,6 @@ padding-right: 165px;
   top: 260px;
   
 }
-
 .category1:hover, 
 .category2:hover, 
 .category3:hover, 
@@ -458,9 +477,6 @@ padding-right: 165px;
   box-shadow: 0 4px 6px -7px rgb(134 125 115 / 10%),
    0 40px 30px -9px rgb(134 125 115 / 20%);
 }
-
-
-
 .categories p{
   position: absolute;
   padding-left: 40px;
@@ -479,7 +495,6 @@ padding-right: 165px;
   height: 300px;
   background-image: url("../Images/Categories/KindGard.png");
 }
-
 .category2{
   width: 270px;
   height: 300px;
@@ -505,24 +520,7 @@ padding-right: 165px;
   height: 300px;
   background-image: url("../Images/Categories/Prep.png")
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                           /* БЛОК МАСТЕРОВ  не сделаны _ */
+                           /* БЛОК МАСТЕРОВ  не сделано !!!!!!!!! */
 .staff{
   display: flex;
   position: relative;
@@ -554,6 +552,7 @@ padding-right: 165px;
   position: relative;
   width: 162px;
   height: 163px;
+  cursor: pointer;
 }
 .worker p{
   font-family: Proxima Nova;
@@ -571,13 +570,34 @@ padding-right: 165px;
   border-radius: 10px;
 }
                            /* внутренний блок МАСТЕРА  */
+
+
+
+
+
+
+
+
 .aboutworker{
   position: relative;
   width: 100%;
   height: 278px;
   top: 180px;
 }
-.worker1{
+.worker-block1{
+  display: block;
+}
+.worker-block2{
+  display: none;
+}
+.worker-block3{
+  display: none;
+}
+.worker-block4{
+  display: none;
+}
+/* первый рабочий */
+.worker1, .worker2, .worker3, .worker4{
   position: absolute;
   width: 255px;
   height: 278px;
@@ -585,10 +605,20 @@ padding-right: 165px;
   border-radius: 10px;
   text-align: center;
 }
+
 .worker1 img{
   margin-top: 18px;
 }
-.aboutworker h1{
+.worker2 img{
+  margin-top: 18px;
+}
+.worker3 img{
+  margin-top: 18px;
+}
+.worker4 img{
+  margin-top: 18px;
+}
+.aboutworker h2{
   position: absolute;
   width: 227px;
   height: 32px;
@@ -615,9 +645,6 @@ padding-right: 165px;
   font-size: 16px;
   line-height: 100%;
   color: #434343;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 .aboutworker p2{ 
   padding: 12px 20px;
@@ -635,9 +662,6 @@ padding-right: 165px;
   font-size: 16px;
   line-height: 100%;
   color: #434343;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 .aboutworker p{
   position: absolute;
@@ -652,7 +676,65 @@ padding-right: 165px;
   line-height: 160%;
   color: #434343;
 }
-                           /*ВОПРОСЫ */
+
+
+
+.worker-block2 p1{
+  padding: 12px 20px;
+  position: absolute;
+  background: #DEE7E6;
+  border-radius: 6px;
+  width: 81px;
+  height: 16px;
+  left: 380px;
+  top: 94px;
+  font-family: Proxima Nova;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  color: #434343;
+}
+.worker-block2 p2{
+  padding: 12px 20px;
+  position: absolute;
+  background: #DEE7E6;
+  border-radius: 6px;
+  width: 116px;
+  height: 16px;
+  left: 520px;
+  top: 94px;
+  font-family: Proxima Nova;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  color: #434343;
+}
+.worker-block2 p3{
+  padding: 12px 20px;
+  position: absolute;
+  background: #DEE7E6;
+  border-radius: 6px;
+  width: 91px;
+  height: 16px;
+  left: 696px;
+  top: 94px;
+  font-family: Proxima Nova;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  color: #434343;
+}
+
+
+
+
+
+
+
+                           /* Вопросы  */
 .question{
   position: relative;
   width: 489px;
@@ -692,7 +774,6 @@ padding-right: 165px;
 .questions p1{
   display: block;
   width: 692px;
-  /*height: 130px;*/
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: normal;
@@ -700,19 +781,10 @@ padding-right: 165px;
   line-height: 160%;
   color: #434343;
 }
-.answer1{
+.answer1, .answer2, .answer3, .answer4 {
   display: none;
 }
-.answer2{
-  display: none;
-}
-.answer3{
-  display: none;
-}
-.answer4{
-  display: none;
-}
-                            /* КОЛАЖ С ИНСТОЙ  */
+                            /* Блок фотоколлажа с инстаграммом  */
 .instpets{
   position: relative;
   width: 100%;
@@ -725,10 +797,8 @@ padding-right: 165px;
   align-items: center;
 }
 .instagrammsale{
-  /*position: relative; */
   width: 974px;
   height: 23px;
-  
   top: 0;
   display: flex;
   justify-content: center;
@@ -758,38 +828,23 @@ padding-right: 165px;
 }
 .fotocol{
   display: flex;
-  /* position: relative; */
   margin-top: 40px;
   height: 205px;
   flex-flow: wrap;
   overflow: hidden;
   justify-content: center;
 }
-                            /* Отзывы "клиентов" */
-
-
-
-
-
-
-
-
-
-
-
-
+                            /* Блок Отзывов */
 .reviews{
   position: relative;
   width: 994px;
   height: 50px;
   top: 820px;
-  /* left: 164px; */
 }
 .reviews h1{
   position: absolute;
   width: 136px;
   height: 41px;
-  /*left: 164px;*/
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: 600;
@@ -802,7 +857,6 @@ padding-right: 165px;
   position: absolute;
   width: 608px;
   height: 50px;
-  /*left: 550px;*/
   left: 386px;
   font-family: Proxima Nova;
   font-style: normal;
@@ -811,9 +865,7 @@ padding-right: 165px;
   line-height: 140%;
   margin: 0%;
 }
-
-
-                      /* Свайпер АНИМИРОВАНЫЙ */
+                              /* Блок Свайпера */
 
 .reviews-swiper{
   position: relative;
@@ -823,7 +875,6 @@ padding-right: 165px;
   overflow: hidden;
   border-radius: 10px;
 }
-
 .swiper {
   width: 100%;
   height: 100%;
@@ -832,22 +883,14 @@ padding-right: 165px;
   border-radius: 10px;
 }
 .swiper-slide {
-  width: 450px ;
-}
-
-
-.swiper-slide {
   display: block;
   max-width: 100%;
   height:auto;
 }
-
 .swiper-wrapper{
   padding: 30px;
 }
-
-
-/* кнопки  */
+                    /* кнопки  */
 .buttonsposition{
   display: flex;
   align-content: center;
@@ -866,13 +909,11 @@ padding-right: 165px;
   cursor: pointer;
   z-index: 11;
 }
-
 .swapbuttons-prev{
   content: 'prev';
   cursor: pointer;
   z-index: 11;
 }
-
 .swiper-pagination{
   bottom: 0 !important;
   font-family: Inter;
@@ -882,13 +923,11 @@ padding-right: 165px;
   line-height: 100%;
   color: #434343;
 }
-
 .append-buttons {
   text-align: center;
   margin-top: 20px;
 }
-
-/* контент слайдера */
+                        /* контент слайдера */
 .swiper-slide-content {
   display: flex ;
   position: relative ;
@@ -896,7 +935,6 @@ padding-right: 165px;
   height: 200px ;
   background: #F7F5F3;
   border-radius: 10px
-
 }
 .swiper-slide-content img{
   position: absolute;
@@ -935,7 +973,6 @@ padding-right: 165px;
   color: #434343;
   margin: 0;
 }
-
                            /* Подвал сайта */
 footer{
   position: relative;  
@@ -985,28 +1022,14 @@ footer{
 }
 .about-footer-down{
   display: flex;
-    justify-content: space-between;
-    position: absolute;
-    left: 893px;
-    width: 386px;
-    /* height: 20px; */
-    align-items: center;
-    top: 20px;
-
-
-}
-/*
-.lapacookie{
+  justify-content: space-between;
   position: absolute;
   left: 893px;
+  width: 386px;
+  align-items: center;
   top: 20px;
 }
-.lapaconf{
-  position: absolute;
-  left: 1113px;
-  top: 20px;
-}
-*/
+
                            /* левая часть футра */
 
 .footer_about{
@@ -1123,6 +1146,8 @@ footer{
   border-radius: 0px;
 }
 
+
+
 /*переход на таблет  */
 @media (min-width: 1000px) and (max-width: 1440px) {
 
@@ -1131,14 +1156,9 @@ footer{
   justify-content: space-around;
 }
 .Logo {
-  /* position: absolute; */
-  /* left: 11.46%; */
-  /* right: 70.14%; */
   top: 0%;
   padding-left: 0px;
-  /* bottom: 73.94%; */
   left: 6%;
-
 }
 .title{
   width: 100%;
@@ -1156,7 +1176,6 @@ footer{
 .services {
   padding-left: 0px; 
 }
-
 .main-sevrvise {
   width: 942px;
 }
@@ -1207,7 +1226,6 @@ footer{
 }
 .categories{
   width: 1000px;
-  
 }
 .category1{
   width: 399px;
@@ -1216,7 +1234,6 @@ footer{
 .category2{
   width: 250px;
   border-radius: 10px;
-
 }
 .category3{
   width: 310px;
@@ -1240,18 +1257,11 @@ footer{
 .servicesblock{
   left: 55px;
 }
-
-
 .reviews-swiper{
-  width: 1000px;
+  width: 960px;
 }
-
-
-
-
-
-
-
-
+.checkbreed-image{
+  left: 538px;
+}
 
 }

@@ -40,7 +40,38 @@ function menuid (element_id){
             obj.style.display = "block"; 
         }
     else obj.style.display = "none"; 
-}       
+}    
+
+
+
+function worker (element_ide){
+
+        let imenu = document.getElementById(element_ide);
+        if (imenu.style.display == "block"){
+            imenu.style.display = "none"; 
+        }
+        else{
+            imenu.style.display = "block";}
+}
+
+
+
+function workertodo (workerid){
+  let worker1 = document.getElementById('worker-block1');
+  let worker2 = document.getElementById('worker-block2');
+  let worker3 = document.getElementById('worker-block3');
+  let worker4 = document.getElementById('worker-block4');
+  let activeworker = document.getElementById(workerid);
+  
+  worker1.style.display = "none";
+  worker2.style.display = "none";
+  worker3.style.display = "none";
+  worker4.style.display = "none";
+  activeworker.style.display = "block";
+}
+
+
+
 
 const swiper = new Swiper('.swiper', {
   slidesPerView: 2,
@@ -70,11 +101,13 @@ const swiper = new Swiper('.swiper', {
     },
     992:{
       slidesPerView: 2,
-      spaceBetween: -80,
+      spaceBetween: 0,
+     
     },
     1440:{
       slidesPerView: 3,
       spaceBetween: 0,
+      
     },
     
   }
