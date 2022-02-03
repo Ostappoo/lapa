@@ -1933,7 +1933,7 @@ font-size: 12px;
   left: 0px;
   position: absolute;
   top: 315px;
-  width: 200px;
+  width: auto;
   font-size: 14px;
   line-height: 14px;
   padding: 12px 18px;
@@ -1942,7 +1942,7 @@ font-size: 12px;
   left: 240px;
   position: absolute;
   top: 315px;
-  width: 80px;
+  width: auto;
   font-size: 14px;
   line-height: 14px;
   padding: 12px 18px;
@@ -1965,7 +1965,7 @@ font-size: 12px;
 }
 .worker-block2 p2{
   left: 119px !important;
-  width: 100px !important;
+  width: auto !important;
 }
 .worker-block2 p3{
   left: 0;
