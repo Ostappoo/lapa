@@ -1593,7 +1593,7 @@ footer{
 }
 }
 
-@media (min-width: 374px) and (max-width: 690px) {
+@media (min-width: 320px) and (max-width: 690px) {
 .backheader{
   background-image: url("../Images/Mobile/Group1549.png");  
   height: 711px;
@@ -1758,7 +1758,7 @@ font-size: 12px;
 
 .staff {
   width: 374px;
-  height: 973px;
+  height: 1000px;
 }
 .staff h1{
   font-size: 24px;
@@ -1782,7 +1782,7 @@ font-size: 12px;
 }
 .worker1, .worker2, .worker3, .worker4 {
   width: 374px;
-  height: 230px;
+  height: 440px;
 }
 .aboutworker h2 {
   left: 0px;
@@ -1797,7 +1797,7 @@ font-size: 12px;
   top: 255px;
   font-size: 14px;
   line-height: 14px;
-  padding: 12px 16px;
+  padding: 12px 18px;
 }
 .aboutworker p2 {
   left: 0;
@@ -1806,14 +1806,14 @@ font-size: 12px;
   width: 80px;
   font-size: 14px;
   line-height: 14px;
-  padding: 12px 16px;
+  padding: 12px 18px;
 }
 .aboutworker p{
   left: 0px;
   width: 368px;
   height: 114px;
   top: 363px;
-  line-height: 150%;
+  line-height: 24px;
   
 }
 .worker1 img {
@@ -1827,7 +1827,7 @@ font-size: 12px;
   top: 366px;
   font-size: 14px;
   line-height: 14px;
-  padding: 12px 16px;
+  padding:12px 18px;
 }
 .worker-block2 p{
   left: 0;
@@ -1846,12 +1846,12 @@ font-size: 12px;
 .questions p{
   width: 374px;
   font-size: 16px;
-line-height: 115%;
+  line-height: 24px;
 }
 .questions p1{
   width: 374px;
   font-size: 16px;
-line-height: 115%;
+  line-height: 24px;
 }
 .instagrammsale{
   width: 374px;
@@ -1897,6 +1897,7 @@ line-height: 115%;
 }
 .swiper-slide-content h2{
   left: 171px;
+  width: 144px;
 
 }
 .swiper-slide-content p{
