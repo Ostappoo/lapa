@@ -228,6 +228,7 @@ header{
   position: absolute;
   right: 22px;
   top: 17px;
+  cursor: pointer;
 }
 
  /* Сервисы */
@@ -304,6 +305,12 @@ header{
 .menu-tablet-contacts p{
   color: #FFFFFF !important;
   padding-left: 46px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 100%;
+  color: #FFFFFF;
 }
 /* Текст внутри хедера */
 .about-tutle{
@@ -1269,7 +1276,7 @@ footer{
 
 
 
-@media (min-width: 8px) and (max-width: 1000px) {
+@media (min-width: 690px) and (max-width: 1000px) {
 .backheader{
   background-image: url("../Images/Tablet/Group1550.png");  
   height: 711px;
@@ -1285,6 +1292,7 @@ footer{
 }
 .menu-button-tablet{
   display: block;
+  cursor: pointer;
 }
 .menu{
   display: none;
@@ -1497,16 +1505,16 @@ footer{
 }
 .footer_about{
   height: 100px;
-    width: 678px;
-    left: 0;
-    position: relative;
-    display: flex;
-    top: 40px;
-    justify-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-
+  width: 678px;
+  left: 0;
+  position: relative;
+  display: flex;
+  top: 40px;
+  justify-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 .footer_about svg{
   width: 218px;
@@ -1583,27 +1591,484 @@ footer{
 .category3 p{
   width: 70px !important;
 }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (min-width: 374px) and (max-width: 690px) {
+.backheader{
+  background-image: url("../Images/Mobile/Group1549.png");  
+  height: 711px;
+}
+.title{
+  width: 100%;
+}
+.Logo{
+  display: none;
+}
+.Logo-tablet{
+  display: none;
+}
+.Logo-mobile{
+  display: block;
+}
+.menu-button-tablet{
+  display: block;
+  cursor: pointer;
+  right: 20px;
+}
+.menu{
+  display: none;
+}
+.about-tutle{
+  top: 0px;
+  width: 394px;
+  height: 105px;
+}
+.contactss{
+display: none;
 
 }
+.contactss a{
+font-size: 12px;
+}
+.about-tutle h1 {
+  font-family: Proxima Nova;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.about-tutle p1 {
+  font-family: Proxima Nova;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: center;
+}  
+.about-tutle p{
+  font-size: 16px;
+  line-height: 20px;
+  padding-top: 28px;
+}
+.mainbutton{
+  text-align: center;
+  top: 110px;
+}
+.mainbutton svg{
+  width: 130px;
+  height: 130px;
+}
+                                        /*СДЕЛАТЬ */
+.mainbutton:hover{
+  border-radius: unset;
+  box-shadow: unset;
+}
+
+
+.main-sevrvise{
+  flex-direction: row;
+  width: 374px;
+  height: 1359px;
+  top: -55px;
+  justify-content: center;
+}
+.main-sevrvise p {
+  width: 345px;
+}
+
+
+/* Не сделаны */
+.checkbreed{
+  width: 629px;
+  display: none;
+}
+.checkbreed h1 {
+  width: 470px;
+  font-size: 31px;
+}
+.checkbreed p{
+  width: 418px;
+}
+.checkbreed-image {
+  /* left: 440px;
+  top: 48px;*/
+  left: 369px;
+    top: 19px;
+  width: 276px;
+  height: 261px;
+  background-image: url("../Images/Tablet/cheakbreed_tablet.png")
+}
+
+
+
+
+
+
+.categories{
+  width: 374px;
+  height: 1155px;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.category1{
+  width: 374px;
+  height: 180px;
+  background-image: url("../Images/Mobile/Frame1191.png")
+}
+.category2{
+  width: 374px;
+  height: 180px;
+  background-image: url("../Images/Mobile/Frame1192.png")
+}
+.category3{
+  width: 374px;
+  height: 180px;
+  background-image: url("../Images/Mobile/Frame1193.png")
+}
+.category4{
+  width: 374px;
+  height: 180px;
+  background-image: url("../Images/Mobile/Frame1194.png")
+}
+.category5{
+  width: 374px;
+  height: 180px;
+  background-image: url("../Images/Mobile/Frame1195.png")
+}
+.category6{
+  width: 374px;
+  height: 180px;
+  background-image: url("../Images/Mobile/Frame1196.png")
+}
+.categories p{
+  width: 154px;
+  height: 56px;
+  font-size: 20px;
+  padding-left: 24px;
+}
+.category3 p{
+  width: 235px !important;
+}
+
+
+.staff {
+  width: 374px;
+  height: 973px;
+}
+.staff h1{
+  font-size: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.workers{
+  display: flex;
+  position: relative;
+  right: 0px;
+  /* width: 104px; */
+  height: 403px;
+  text-align: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.aboutworker{
+  top: 37px;
+  height: 628px;
+}
+.worker1, .worker2, .worker3, .worker4 {
+  width: 374px;
+  height: 230px;
+}
+.aboutworker h2 {
+  left: 0px;
+  position: relative;
+  top: 250px;
+  font-size: 24px;
+  line-height: 27px;
+}
+.aboutworker p1 {
+  left: 0px;
+  position: relative;
+  top: 255px;
+  font-size: 14px;
+  line-height: 14px;
+  padding: 12px 16px;
+}
+.aboutworker p2 {
+  left: 0;
+  position: relative;
+  top: 255px;
+  width: 80px;
+  font-size: 14px;
+  line-height: 14px;
+  padding: 12px 16px;
+}
+.aboutworker p{
+  left: 0px;
+  width: 368px;
+  height: 114px;
+  top: 363px;
+  line-height: 150%;
+  
+}
+.worker1 img {
+  margin-top: -33px;
+}
+.worker-block2 p2{
+  left: 0;
+}
+.worker-block2 p3{
+  left: 0;
+  top: 366px;
+  font-size: 14px;
+  line-height: 14px;
+  padding: 12px 16px;
+}
+.worker-block2 p{
+  left: 0;
+  width: 368px;
+  height: 144px;
+  top: 403px !important;
+  line-height: 150%;
+}
+.question{
+  width: 374px;
+  height: 24px;
+  font-size: 24px;
+  line-height: 100%;
+}
+
+.questions p{
+  width: 374px;
+  font-size: 16px;
+line-height: 115%;
+}
+.questions p1{
+  width: 374px;
+  font-size: 16px;
+line-height: 115%;
+}
+.instagrammsale{
+  width: 374px;
+    height: 75px;
+}
+.instagrammsale p{
+  font-size: 18px;
+    line-height: 140%;
+}
+.instagrammsale p1{
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.reviews{
+  width: 374px;
+  height: 122px;
+}
+.reviews h1{
+  font-size: 24px;
+  line-height: 115%;
+}
+.reviews p{
+  left: 0;
+    width: 374px;
+    height: 66px;
+    font-size: 16px;
+    top: 40px;
+    font-size: 16px;
+    line-height: 140%;
+}
+.reviews-swiper{
+  width: 374px;
+    height: 209px;
+}
+.swiper-slide-content{
+  width: 374px;
+  height: 170px; 
+}
+.swiper-slide-content img{
+  width: 130px;
+  height: 130px;
+}
+.swiper-slide-content h2{
+  left: 171px;
+
+}
+.swiper-slide-content p{
+  width: 195px;
+height: 80px;
+left: 171px;
+font-size: 14px;
+line-height: 140%;
+top: 63px;
+
+}
+.swiper-wrapper {
+ padding: 0;
+}
+.buttonsposition{
+  position: relative;
+  top: -20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+  height: 657px;
+  
+}
+.footerall{
+  display: block;
+    flex-direction: unset;
+    flex-wrap: unset;
+    position: relative;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    width: 100%;
+    height: 100%;
+    background: #434343;
+}
+.footerup{
+  height: 602px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.footer_about{
+  flex-direction: column;
+  top: 0;
+  width: 373px;
+  left: 0;
+  position: unset;
+}
+.footer_about svg{
+  width: 218px;
+  height: 67px;
+
+    padding-bottom: unset;
+}
+.footer_about h1{
+  position: unset;
+  height: 23px;
+  width: 321px;
+  left: 281px;
+  top: 0;
+  margin: unset;
+}
+.footer_about p{
+  position: unset;
+  width: 359px;
+  left: 283px;
+  top: 39px;
+  font-size: 16px;
+  line-height: 140%;
+}
+.footer_right{
+  position: unset;
+  display: unset;
+  width: 0;
+  top: 0;
+  right: 0;
+  margin: 0;
+}
+.basic{
+  position: absolute;
+    left: 15%;
+    top: 178px;
+    width: 132px;
+}
+.footer_right h1{
+  font-size: 18px;
+}
+.footer_right a{
+  font-size: 16px;
+}
+.additionaly{
+  position: absolute;
+    left: 50%;
+    top: 178px;
+}
+.salon{
+  position: absolute;
+    left: 15%;
+    top: 380px;
+}
+.contacts_footer{
+  position: absolute;
+    left: 50%;
+    top: 380px;
+    width: 140px;
+}
+.footerdown{
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.lapagrooming{
+  position: unset;
+  font-size: 15px;
+}
+.about-footer-down{
+  width: 481px;
+  position: unset;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tablet-left-side{
+  width: 100%;
+}
+
+.menu-tablet-drop{
+  background: none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

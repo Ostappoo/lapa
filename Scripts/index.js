@@ -54,7 +54,6 @@ function worker (element_ide){
 }
 
 
-
 function workertodo (workerid){
   let worker1 = document.getElementById('worker-block1');
   let worker2 = document.getElementById('worker-block2');
@@ -75,11 +74,9 @@ function workertodo (workerid){
 const swiper = new Swiper('.swiper', {
   slidesPerView: 2,
   spaceBetween: 20,
-  autoResize: false,
   slidesPerGroup: 1,
   resistanceRatio: 1,
   autoHeight: false,
-  autoResize: false,
 
   pagination: {
       el: '.swiper-pagination',
@@ -93,6 +90,7 @@ const swiper = new Swiper('.swiper', {
   breakpoints: {
     320:{
       slidesPerView: 1,
+      spaceBetween: 80,
     },
     480:{
       slidesPerView: 1.2,
