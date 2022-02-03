@@ -12,16 +12,19 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: .2s all ease-in-out;
 }
 main{
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: .2s all ease-in-out;
 }
 
 header{
   width: 100%;
   background: #F7F5F3;
+  transition: .2s all ease-in-out;
 }
 .backheader{
   height: 900px;
@@ -34,6 +37,7 @@ header{
   flex-direction: column;
   align-items: center;
   background-repeat: no-repeat;
+  transition: .2s all ease-in-out;
 }
 
                            /* блок титула */
@@ -42,21 +46,26 @@ header{
   width: 1440px;
   height: 108px;
   top: 20px;
+  transition: .2s all ease-in-out;
+  
 }
 .Logo{
   position: absolute;
   top: 0%;
   padding-left: 165px;
+  transition: .2s all ease-in-out;
 }
 .Logo-tablet{
   display: none;
   position: absolute;
   left: 45px;
+  transition: .2s all ease-in-out;
 }
 .Logo-mobile{
   position: absolute;
   left: 20px;
   display: none;
+  transition: .2s all ease-in-out;
 }
 .contactss{
   display: flex;
@@ -74,6 +83,7 @@ header{
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #434343;
+  transition: .2s all ease-in-out;
 }
 .contactss a{
   display: flex;
@@ -86,6 +96,7 @@ header{
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #434343;
+  transition: .2s all ease-in-out;
 }
                            /* Блок меню */
 .menu{
@@ -100,6 +111,7 @@ header{
   justify-content: space-between;
   align-content: space-around;
   align-items: center;
+  transition: .2s all ease-in-out;
 }
 .menu a{
   position: static;
@@ -119,6 +131,7 @@ header{
   flex-grow: 0;
   text-decoration: none;
   cursor: pointer;
+  transition: .2s all ease-in-out;
 }
 .menu a:hover{
   color: #D0B08A;
@@ -131,9 +144,11 @@ header{
 }
 .services{
   padding-left: 165px;
+  transition: .2s all ease-in-out;
 }
 .vacancy{
   padding-right: 165px;
+  transition: .2s all ease-in-out;
 }
 
 /* блок вылезающего меню */
@@ -148,6 +163,7 @@ header{
   background-image: url("../Images/backsvg.svg");
   justify-content: space-evenly;
   z-index: 1;
+  transition: .2s all ease-in-out;
 }
 .servicesblock p1{
   font-family: Proxima Nova;
@@ -159,6 +175,7 @@ header{
   color: #949191;
   padding-bottom: 16px;
   margin: 0;
+  transition: .2s all ease-in-out;
 }
 .servicesblock a1{
   font-family: Proxima Nova;
@@ -169,6 +186,7 @@ header{
   color: #434343;
   padding-bottom: 16px;
   margin: 0%;
+  transition: .2s all ease-in-out;
 }
 .services_block_left{
   width: 148px ;
@@ -177,6 +195,7 @@ header{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  transition: .2s all ease-in-out;
 }
 .services_block_right{
   width: 109px;
@@ -185,12 +204,14 @@ header{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  transition: .2s all ease-in-out;
 }
 /* Блок вылезающего меню */
 .menu-button-tablet{
   position: absolute;
   right: 45px;
   display: none;
+  transition: .2s all ease-in-out;
 }
                                                 /* блок вылезающего меню */
 
@@ -204,7 +225,11 @@ header{
   background: rgba(0, 0, 0, 0.42);
   mix-blend-mode: normal;
   backdrop-filter: blur(5px);
-  z-index: 50;
+  z-index: 99;
+  transition: .2s all ease-in-out;
+  overflow: scroll;
+
+
   /*margin-top: -20px;*/
 }
 .tablet-left-side{
@@ -213,16 +238,19 @@ header{
   width: 50%;
   height: 100%;
   background: #FFFFFF;
+  transition: .2s all ease-in-out;
 }
 .menu-tablet-header{
   width: 100%;
   height: 40px;
   position: relative;
+  transition: .2s all ease-in-out;
 }
 .menu-tablet-logo{
   position: absolute;
   left: 45px;
   top: 18px;
+  transition: .2s all ease-in-out;
 }
 .menu-tablet-exit{
   position: absolute;
@@ -240,6 +268,7 @@ header{
   height: 290px;
   flex-wrap: nowrap;
   justify-content: space-evenly;
+  transition: .2s all ease-in-out;
 }
 .menu-tablet-drop h1{
   font-family: Proxima Nova;
@@ -250,6 +279,7 @@ header{
   text-transform: uppercase;
   color: #434343;
   padding-left: 46px;
+  transition: .2s all ease-in-out;
 }
 .menu-tablet-drop a{
   font-family: Proxima Nova;
@@ -259,17 +289,20 @@ header{
   line-height: 100%; 
   color: #434343;
   padding-left: 46px;
+  transition: .2s all ease-in-out;
 }
 .menu-tablet-h1, .menu-tablet-prices, .menu-tablet-grooming, .menu-tablet-cats,
 .menu-tablet-dogs{
   height: 58px;
   display: flex;
   align-items: center;
+  transition: .2s all ease-in-out;
 }
 .menu-tablet-border{
   opacity: 0.2;
   margin: -1px 0;
   border: 1px solid #949191;
+  transition: .2s all ease-in-out;
 }
  /* Дополнительно*/
 .menu-tablet-additionally{
@@ -279,6 +312,7 @@ header{
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  transition: .2s all ease-in-out;
 }
 .menu-tablet-h2, .menu-tablet-stocks, .menu-tablet-cynolist,
 .menu-tablet-garden, .menu-tablet-spa, .menu-tablet-vacancy,
@@ -286,6 +320,7 @@ header{
   height: 58px;
   display: flex;
   align-items: center;
+  transition: .2s all ease-in-out;
 }
  /* футер*/
 .menu-tablet-footer{
@@ -294,13 +329,16 @@ header{
   height: 205px;
   top: 13px;
   background: #434343;
+  transition: .2s all ease-in-out;
 }
 .menu-tablet-contacts{
   position: relative;
   top: 20px;
+  transition: .2s all ease-in-out;
 }
 .menu-tablet-contacts h1{
   color: #FFFFFF !important;
+  transition: .2s all ease-in-out;
 }
 .menu-tablet-contacts p{
   color: #FFFFFF !important;
@@ -318,6 +356,7 @@ header{
   width: 888px;
   height: 212px;
   top: 100px;
+  transition: .2s all ease-in-out;
 }
 
 .about-tutle h1{
@@ -330,6 +369,7 @@ header{
   text-align: center;
   color: #434343;
   margin: 0%;
+  transition: .2s all ease-in-out;
 }
 .about-tutle p1{
   font-family: Proxima Nova;
@@ -339,6 +379,7 @@ header{
   line-height: 63px;
   letter-spacing: 0em;
   text-align: center;
+  transition: .2s all ease-in-out;
   
 }
 .about-tutle p{
@@ -351,16 +392,19 @@ header{
   text-align: center;
   margin: 0%;
     padding-top: 40px;
+    transition: .2s all ease-in-out;
 }
 .mainbutton{
   position: relative;
   top: 126px;
   width: 110px;
   height: 110px;
+  transition: .2s all ease-in-out;
 }
 .mainbutton:hover{
   border-radius: 140px;
   box-shadow: 0px 4px 34px rgba(134, 125, 115, 0.25);
+  transition: .2s all ease-in-out;
 }
                            /* Блок сервисов */
 
@@ -375,6 +419,7 @@ header{
   height: 522px;
   top: -100px;
   text-align: center;
+  transition: .2s all ease-in-out;
 }
 .main-sevrvise h1{
   height: 28px;
@@ -387,6 +432,7 @@ header{
   line-height: 115%;
   text-align: center;
   color: #434343;
+  transition: .2s all ease-in-out;
 }
 .main-sevrvise p{
   height: 88px;
@@ -401,6 +447,7 @@ header{
   line-height: 22px;
   letter-spacing: 0em;
   text-align: center;
+  transition: .2s all ease-in-out;
 }
                            /* Блок Подбора ухода  */
 
@@ -411,6 +458,7 @@ header{
   width: 1056px;
   height: 258px;
   top: 40px;
+  transition: .2s all ease-in-out;
 }
 .checkbreed h1{
   width: 540px;
@@ -423,6 +471,7 @@ header{
   font-size: 36px;
   line-height: 115%;
   color: #434343;
+  transition: .2s all ease-in-out;
 }
 .checkbreed p{
   width: 540px;
@@ -436,9 +485,11 @@ header{
   line-height: 140%;
   color: #434343;
   margin-bottom: 31px;
+  transition: .2s all ease-in-out;
 }
 .search{
-  display:flex
+  display:flex;
+  transition: .2s all ease-in-out;
 }
 .PickBreed {
   padding: 12px 20px;
@@ -455,6 +506,7 @@ header{
   color: #FFFFFF;
   outline: none;
   border: none;
+  transition: .2s all ease-in-out;
 }
 .checkbreed-image{
   position: absolute;
@@ -462,6 +514,7 @@ header{
   width: 448.15px;
   height: 387.78px;
   background-image: url("../Images/Desktop/checkbredim.png");
+  transition: .2s all ease-in-out;
 }
                            /* Блок категорий услуг  */
 .categories{
@@ -474,6 +527,7 @@ header{
   width: 1109px;
   height: 628px;
   top: 260px;
+  transition: .2s all ease-in-out;
   
 }
 .category1:hover, 
@@ -499,38 +553,45 @@ header{
   line-height: 140%;
   text-transform: uppercase;
   color: #434343;
+  transition: .2s all ease-in-out;
 }
 .category1{
   width: 445px;
   height: 300px;
   background-image: url("../Images/Categories/KindGard.png");
+  transition: .2s all ease-in-out;
 }
 .category2{
   width: 270px;
   height: 300px;
-  background-image: url("../Images/Categories/cyno.png")
+  background-image: url("../Images/Categories/cyno.png");
+  transition: .2s all ease-in-out;
 }
 .category3{
   width: 338px;
   height: 300px;
-  background-image: url("../Images/Categories/SPA.png")
+  background-image: url("../Images/Categories/SPA.png");
+  transition: .2s all ease-in-out;
 }
 .category4{
   width: 210px;
   height: 300px;
-  background-image: url("../Images/Categories/Promo.png")
+  background-image: url("../Images/Categories/Promo.png");
+  transition: .2s all ease-in-out;
 }
 .category5{
   width: 345px;
   height: 300px;
-  background-image: url("../Images/Categories/Coloring.png")
+  background-image: url("../Images/Categories/Coloring.png");
+  transition: .2s all ease-in-out;
 }
 .category6{
   width: 498px;
   height: 300px;
-  background-image: url("../Images/Categories/Prep.png")
+  background-image: url("../Images/Categories/Prep.png");
+  transition: .2s all ease-in-out;
 }
-                           /* БЛОК МАСТЕРОВ  не сделано !!!!!!!!! */
+                           /* БЛОК МАСТЕРОВ  */
 .staff{
   display: flex;
   position: relative;
@@ -538,6 +599,7 @@ header{
   height: 524px;
   top: 365px;
   flex-direction: column;
+  transition: .2s all ease-in-out;
   /* margin: auto;*/
 }
 .staff h1{
@@ -549,6 +611,7 @@ header{
   letter-spacing: 0em;
   text-align: left;
   margin-top: 0%;
+  transition: .2s all ease-in-out;
 }
 .workers{
   display: flex;
@@ -557,12 +620,14 @@ header{
   /*width: 152px;*/
   height: 217px;
   text-align: center;
+  transition: .2s all ease-in-out;
 }
 .worker{
   position: relative;
   width: 162px;
   height: 163px;
   cursor: pointer;
+  transition: .2s all ease-in-out;
 }
 .worker p{
   font-family: Proxima Nova;
@@ -572,12 +637,14 @@ header{
   line-height: 23px;
   letter-spacing: 0em;
   text-align: center;
+  transition: .2s all ease-in-out;
 }
 .worker img{
   width: 120px;
   height: 120px;
   background: #F7F5F3;
   border-radius: 10px;
+  transition: .2s all ease-in-out;
 }
                            /* внутренний блок МАСТЕРА  */
 
@@ -593,18 +660,23 @@ header{
   width: 100%;
   height: 278px;
   top: 180px;
+  transition: .2s all ease-in-out;
 }
 .worker-block1{
   display: block;
+  transition: .2s all ease-in-out;
 }
 .worker-block2{
   display: none;
+  transition: .2s all ease-in-out;
 }
 .worker-block3{
   display: none;
+  transition: .2s all ease-in-out;
 }
 .worker-block4{
   display: none;
+  transition: .2s all ease-in-out;
 }
 /* первый рабочий */
 .worker1, .worker2, .worker3, .worker4{
@@ -614,19 +686,24 @@ header{
   background: #F7F5F3;
   border-radius: 10px;
   text-align: center;
+  transition: .2s all ease-in-out;
 }
 
 .worker1 img{
   margin-top: 18px;
+  transition: .2s all ease-in-out;
 }
 .worker2 img{
   margin-top: 18px;
+  transition: .2s all ease-in-out;
 }
 .worker3 img{
   margin-top: 18px;
+  transition: .2s all ease-in-out;
 }
 .worker4 img{
   margin-top: 18px;
+  transition: .2s all ease-in-out;
 }
 .aboutworker h2{
   position: absolute;
@@ -639,6 +716,7 @@ header{
   font-size: 28px;
   line-height: 115%;
   color: #434343;
+  transition: .2s all ease-in-out;
 }
 .aboutworker p1{
   padding: 12px 20px;
@@ -655,6 +733,7 @@ header{
   font-size: 16px;
   line-height: 100%;
   color: #434343;
+  transition: .2s all ease-in-out;
 }
 .aboutworker p2{ 
   padding: 12px 20px;
@@ -672,6 +751,7 @@ header{
   font-size: 16px;
   line-height: 100%;
   color: #434343;
+  transition: .2s all ease-in-out;
 }
 .aboutworker p{
   position: absolute;
@@ -685,6 +765,7 @@ header{
   font-size: 16px;
   line-height: 160%;
   color: #434343;
+  transition: .2s all ease-in-out;
 }
 
 
@@ -704,6 +785,7 @@ header{
   font-size: 16px;
   line-height: 100%;
   color: #434343;
+  transition: .2s all ease-in-out;
 }
 .worker-block2 p2{
   padding: 12px 20px;
@@ -720,6 +802,7 @@ header{
   font-size: 16px;
   line-height: 100%;
   color: #434343;
+  transition: .2s all ease-in-out;
 }
 .worker-block2 p3{
   padding: 12px 20px;
@@ -736,6 +819,7 @@ header{
   font-size: 16px;
   line-height: 100%;
   color: #434343;
+  transition: .2s all ease-in-out;
 }
 
 
@@ -757,12 +841,14 @@ header{
   line-height: 120%;
   text-align: center;
   color: #434343;
+  transition: .2s all ease-in-out;
 }
 .questions{
   display: flex;
   flex-direction: column;
   position: relative;
   top: 500px;
+  transition: .2s all ease-in-out;
 }
 .questions p{
   display: flex;
@@ -780,6 +866,7 @@ header{
   padding-bottom:8px;
   border-bottom: 1px solid #D2D2D2; 
   cursor: pointer;
+  transition: .2s all ease-in-out;
 }
 .questions p1{
   display: block;
@@ -790,9 +877,11 @@ header{
   font-size: 16px;
   line-height: 160%;
   color: #434343;
+  transition: .2s all ease-in-out;
 }
 .answer1, .answer2, .answer3, .answer4 {
   display: none;
+  transition: .2s all ease-in-out;
 }
                             /* Блок фотоколлажа с инстаграммом  */
 .instpets{
@@ -804,6 +893,7 @@ header{
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: .2s all ease-in-out;
 }
 .instagrammsale{
   width: 974px;
@@ -811,6 +901,7 @@ header{
   top: 0;
   display: flex;
   justify-content: center;
+  transition: .2s all ease-in-out;
 }
 .instagrammsale p{
   font-family: Proxima Nova;
@@ -820,6 +911,7 @@ header{
   line-height: 115%;
   text-align: center;
   text-transform: uppercase;
+  transition: .2s all ease-in-out;
 }
 .instagrammsale p1{
   font-family: Proxima Nova;
@@ -829,11 +921,13 @@ header{
   line-height: 23px;
   letter-spacing: 0em;
   text-align: center;
+  transition: .2s all ease-in-out;
 }
 .fotocolwidht{
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  transition: .2s all ease-in-out;
 }
 .fotocol{
   display: flex;
@@ -842,6 +936,7 @@ header{
   flex-flow: wrap;
   overflow: hidden;
   justify-content: center;
+  transition: .2s all ease-in-out;
 }
                             /* Блок Отзывов */
 .reviews{
@@ -849,6 +944,7 @@ header{
   width: 994px;
   height: 50px;
   top: 820px;
+  transition: .2s all ease-in-out;
 }
 .reviews h1{
   position: absolute;
@@ -861,6 +957,7 @@ header{
   line-height: 115%;
   color: #434343;
   margin: 0%;
+  transition: .2s all ease-in-out;
 }
 .reviews p{
   position: absolute;
@@ -873,6 +970,7 @@ header{
   font-size: 18px;
   line-height: 140%;
   margin: 0%;
+  transition: .2s all ease-in-out;
 }
                               /* Блок Свайпера */
 
@@ -883,6 +981,7 @@ header{
   width: 1440px;
   overflow: hidden;
   border-radius: 10px;
+  transition: .2s all ease-in-out;
 }
 .swiper {
   width: 100%;
@@ -992,6 +1091,7 @@ footer{
   background: #434343;
   flex-direction: column;
   align-items: center;
+  transition: .2s all ease-in-out;
 }
 .footerall{
   position: relative;
@@ -1001,6 +1101,7 @@ footer{
   width: 1440px;
   height: 257px;
   background: #434343;
+  transition: .2s all ease-in-out;
 }
 .footerup{
   position: relative;
@@ -1016,6 +1117,7 @@ footer{
   font-size: 11px;
   line-height: 100%;
   color: #FFFFFF;
+  transition: .2s all ease-in-out;
 }
 .lapagrooming{
   position: absolute;
@@ -1028,6 +1130,7 @@ footer{
   line-height: 100%;
   text-transform: uppercase;
   color: #FFFFFF;
+  transition: .2s all ease-in-out;
 }
 .about-footer-down{
   display: flex;
@@ -1037,6 +1140,7 @@ footer{
   width: 386px;
   align-items: center;
   top: 20px;
+  transition: .2s all ease-in-out;
 }
 
                            /* левая часть футра */
@@ -1049,6 +1153,7 @@ footer{
   width: 239px;
   left: 165px;
   top: 27px;
+  transition: .2s all ease-in-out;
 }
 .footer_about svg{
   height: 42px;
@@ -1091,6 +1196,7 @@ footer{
   top: 40px;
   right: 166px;
   margin: 0%;
+  transition: .2s all ease-in-out;
 }
 .footer_right h1{
   font-family: Proxima Nova;
@@ -1123,6 +1229,7 @@ footer{
   left: 534px;
   top: 40px;
   border-radius: 0px;
+  transition: .2s all ease-in-out;
   
 }
 .additionaly{
@@ -1133,6 +1240,7 @@ footer{
   left: 705px;
   top: 40px;
   border-radius: 0px;
+  transition: .2s all ease-in-out;
 
 }
 .salon{
@@ -1143,6 +1251,7 @@ footer{
   left: 917px;
   top: 40px;
   border-radius: 0px;
+  transition: .2s all ease-in-out;
 
 }
 .contacts_footer{
@@ -1153,6 +1262,7 @@ footer{
   left: 1071px;
   top: 40px;
   border-radius: 0px;
+  transition: .2s all ease-in-out;
 }
 
 
@@ -1349,8 +1459,8 @@ font-size: 12px;
 
 .main-sevrvise{
   flex-direction: row;
-  width: 636px;
-  height: 691px;
+  width: 590px;
+  height: 728px;
   top: -96px;
 }
 .main-sevrvise p {
@@ -1479,6 +1589,9 @@ font-size: 12px;
   width:600px;
 }
 
+
+
+
 footer{
   height: 657px;
  
@@ -1593,7 +1706,27 @@ footer{
 }
 }
 
-@media (min-width: 320px) and (max-width: 690px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 375px) and (max-width: 690px) {
 .backheader{
   background-image: url("../Images/Mobile/Group1549.png");  
   height: 711px;
@@ -1620,7 +1753,7 @@ footer{
 }
 .about-tutle{
   top: 0px;
-  width: 394px;
+  width: 349px;
   height: 105px;
 }
 .contactss{
@@ -1982,6 +2115,7 @@ footer{
 
     padding-bottom: unset;
 }
+
 .footer_about h1{
   position: unset;
   height: 23px;
@@ -2050,21 +2184,6 @@ footer{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .tablet-left-side{
   width: 100%;
 }
@@ -2077,6 +2196,572 @@ footer{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 220px) and (max-width: 375px) {
+
+  .backheader{
+    background-image: url("../Images/Mobile/Group1549.png");  
+    height: 711px;
+  }
+  .title{
+    width: 100%;
+  }
+  .Logo{
+    display: none;
+  }
+  .Logo-tablet{
+    display: none;
+  }
+  .Logo-mobile{
+    display: block;
+  }
+  .menu-button-tablet{
+    display: block;
+    cursor: pointer;
+    right: 20px;
+  }
+  .menu{
+    display: none;
+  }
+  .about-tutle{
+    top: 0px;
+    width: 320px;
+    height: 105px;
+  }
+  .contactss{
+  display: none;
+  
+  }
+  .contactss a{
+  font-size: 12px;
+  }
+  .about-tutle h1 {
+    font-family: Proxima Nova;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .about-tutle p1 {
+    font-family: Proxima Nova;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+  }  
+  .about-tutle p{
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 28px;
+  }
+  .mainbutton{
+    text-align: center;
+    top: 110px;
+  }
+  .mainbutton svg{
+    width: 130px;
+    height: 130px;
+  }
+                                          /*СДЕЛАТЬ */
+  .mainbutton:hover{
+    border-radius: unset;
+    box-shadow: unset;
+  }
+  
+  
+  .main-sevrvise{
+    flex-direction: row;
+    width: 320px;
+    height: 1359px;
+    top: -55px;
+    justify-content: center;
+  }
+  .main-sevrvise p {
+    width: 320px;
+  }
+  
+  
+  /* Не сделаны */
+  .checkbreed{
+    width: 629px;
+    display: none;
+  }
+  .checkbreed h1 {
+    width: 470px;
+    font-size: 31px;
+  }
+  .checkbreed p{
+    width: 418px;
+  }
+  .checkbreed-image {
+    /* left: 440px;
+    top: 48px;*/
+    left: 369px;
+      top: 19px;
+    width: 276px;
+    height: 261px;
+    background-image: url("../Images/Tablet/cheakbreed_tablet.png")
+  }
+  
+  
+  
+  
+  
+  
+  .categories{
+    width: 320px;
+    height: 1155px;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .category1{
+    width: 320px;
+    height: 180px;
+    border-radius: 10px;
+    background-image: url("../Images/Mobile/Frame1191.png")
+  }
+  .category2{
+    width: 320px;
+    height: 180px;
+    border-radius: 10px;
+    background-image: url("../Images/Mobile/Frame1192.png")
+  }
+  .category3{
+    width: 320px;
+    height: 180px;
+    border-radius: 10px;
+    background-image: url("../Images/Mobile/Frame1193.png")
+  }
+  .category4{
+    width: 320px;
+    height: 180px;
+    border-radius: 10px;
+    background-image: url("../Images/Mobile/Frame1194.png")
+  }
+  .category5{
+    width: 320px;
+    height: 180px;
+    border-radius: 10px;
+    background-image: url("../Images/Mobile/Frame1195.png")
+  }
+  .category6{
+    width: 320px;
+    height: 180px;
+    border-radius: 10px;
+    background-image: url("../Images/Mobile/Frame1196.png")
+  }
+  .categories p{
+    width: 154px;
+    height: 56px;
+    font-size: 20px;
+    padding-left: 24px;
+  }
+  .category3 p{
+    width: 235px !important;
+  }
+  
+  
+  .staff {
+    width: 320px;
+    height: 1000px;
+  }
+  .staff h1{
+    font-size: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .worker p{
+    font-size: 18px;
+    line-height: 115%;
+  
+  }
+  .workers{
+    display: flex;
+    position: relative;
+    right: 0px;
+    /* width: 104px; */
+    height: 403px;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .aboutworker{
+    top: 37px;
+    height: 628px;
+  }
+  .worker1, .worker2, .worker3, .worker4 {
+    width: 320px;
+    height: 230px;
+  }
+  .aboutworker h2 {
+    left: 0px;
+    position: relative;
+    top: 250px;
+    font-size: 24px;
+    line-height: 27px;
+  }
+  .aboutworker p1 {
+    left: 0px;
+    position: absolute;
+    top: 315px;
+    width: 200px;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 12px 18px;
+  }
+  .aboutworker p2 {
+    left: 0px;
+    position: absolute;
+    top: 362px;
+    width: 80px;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 12px 18px;
+  }
+  .aboutworker p{
+    left: 0px;
+    width: 320px;
+    height: 208px;
+    top: 419px;
+    line-height: 24px;
+    
+  }
+  .worker1 img {
+    margin-top: -33px;
+  }
+  .worker-block2 p1{
+    left: 0;
+    width: 75px;
+    
+  }
+  .worker-block2 p2{
+    left: 119px !important;
+    width: 100px !important;
+    top: 315px;
+  }
+  .worker-block2 p3{
+    left: 0;
+    top: 366px;
+    font-size: 14px;
+    line-height: 14px;
+    padding:12px 18px;
+  }
+  
+  .worker-block2 p{
+    left: 0;
+    width: 320px;
+    height: 144px;
+    top: 403px !important;
+    line-height: 150%;
+  }
+  .question{
+    width: 320px;
+    height: 24px;
+    font-size: 24px;
+    line-height: 100%;
+  }
+  
+  .questions p{
+    width: 320px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .questions p1{
+    width: 320px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .instagrammsale{
+    width: 320px;
+    height: 100px;
+  }
+  .instagrammsale p{
+    font-size: 18px;
+      line-height: 140%;
+  }
+  .instagrammsale p1{
+    font-size: 18px;
+    line-height: 140%;
+  }
+  
+  .reviews{
+    width: 320px;
+    height: 122px;
+  }
+  .reviews h1{
+    font-size: 24px;
+    line-height: 115%;
+  }
+  .reviews p{
+    left: 0;
+    width: 320px;
+      height: 66px;
+      font-size: 16px;
+      top: 40px;
+      font-size: 16px;
+      line-height: 140%;
+  }
+  .reviews-swiper{
+    width: 320px;
+      height: 209px;
+  }
+  .swiper-slide-content{
+    width: 374px;
+    height: 170px; 
+  }
+  .swiper-slide-content img{
+    width: 130px;
+    height: 130px;
+  }
+  .swiper-slide-content h2{
+    left: 171px;
+    width: 144px;
+    top: 14px;
+  
+  }
+  .swiper-slide-content p{
+    width: 149px;
+  height: 80px;
+  left: 171px;
+  font-size: 14px;
+  line-height: 140%;
+  top: 40px;
+  
+  }
+  .swiper-wrapper {
+   padding: 0;
+  }
+  .buttonsposition{
+    position: relative;
+    top: -20px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  footer{
+    height: 911px;
+    
+  }
+  .footerall{
+    display: block;
+      flex-direction: unset;
+      flex-wrap: unset;
+      position: relative;
+      left: 0%;
+      right: 0%;
+      bottom: 0%;
+      width: 100%;
+      height: 100%;
+      background: #434343;
+  }
+  .footerup{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    border-bottom: unset;
+  }
+  
+  
+  
+  .footer_about{
+    flex-direction: column;
+    top: 0;
+    width: 320px;
+    left: 0;
+    position: relative;
+    align-items: center;
+    height: 253px;
+    justify-content: space-evenly;
+  }
+  .footer_about svg{
+    width: 210px;
+    height: 52px;
+    padding-bottom: unset;
+  }
+  
+  .footer_about h1{
+    width: 216px;
+    text-align: center;
+    height: 50px;
+    left: 0;
+    top: 0;
+    margin: unset;
+  }
+  .footer_about p{
+    position: unset;
+    width: 320px;
+    left: 0;
+    top: 0;
+    font-size: 16px;
+    height: 70px;
+    line-height: 140%;
+    text-align: center;
+  }
+  .footer_right{
+    width: 100%;
+    /* left: 10px; */
+    top: 0px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 724px;
+    justify-content: center;
+    right: 0;
+    margin: 0;
+  }
+  .basic{
+    height: 144px;
+    position: unset;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  .footer_right h1{
+    font-size: 18px;
+    padding-left: 20px;
+  }
+  .footer_right a{
+    font-size: 16px;
+    padding-left: 20px;
+  }
+  .additionaly{
+    width: 100%;
+      left: 50%;
+      top: 178px;
+      height: 144px;
+      position: unset;
+  }
+  .salon{
+    width: 100%;
+    position: unset;
+      left: 15%;
+      top: 380px;
+      height: 144px;
+  }
+  .contacts_footer{
+    width: 100%;
+    position: unset;
+      left: 50%;
+      top: 380px;
+      
+    width: 305px;
+
+      height: 144px;
+  }
+  .footerdown{
+    position: relative;
+    height: 107px;
+    left: 20px;
+    width: 241px;
+    font-size: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+  
+  .lapagrooming{
+    position: unset;
+    font-size: 15px;
+  }
+
+  .about-footer-down{
+   width: 100%;
+    height: 98px;
+    position: unset;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  
+  
+  
+  .tablet-left-side{
+    width: 100%;
+  }
+  
+  .menu-tablet-drop{
+    background: none;
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
 
 
