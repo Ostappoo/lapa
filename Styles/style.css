@@ -205,7 +205,7 @@ header{
   mix-blend-mode: normal;
   backdrop-filter: blur(5px);
   z-index: 50;
-  margin-top: -20px;
+  /*margin-top: -20px;*/
 }
 .tablet-left-side{
   position: fixed;
@@ -1765,6 +1765,11 @@ font-size: 12px;
   letter-spacing: 0em;
   text-align: center;
 }
+.worker p{
+  font-size: 18px;
+  line-height: 115%;
+
+}
 .workers{
   display: flex;
   position: relative;
@@ -1782,7 +1787,7 @@ font-size: 12px;
 }
 .worker1, .worker2, .worker3, .worker4 {
   width: 374px;
-  height: 440px;
+  height: 230px;
 }
 .aboutworker h2 {
   left: 0px;
@@ -1793,16 +1798,17 @@ font-size: 12px;
 }
 .aboutworker p1 {
   left: 0px;
-  position: relative;
-  top: 255px;
+  position: absolute;
+  top: 315px;
+  width: 200px;
   font-size: 14px;
   line-height: 14px;
   padding: 12px 18px;
 }
 .aboutworker p2 {
-  left: 0;
-  position: relative;
-  top: 255px;
+  left: 240px;
+  position: absolute;
+  top: 315px;
   width: 80px;
   font-size: 14px;
   line-height: 14px;
@@ -1819,8 +1825,14 @@ font-size: 12px;
 .worker1 img {
   margin-top: -33px;
 }
-.worker-block2 p2{
+.worker-block2 p1{
   left: 0;
+  width: 75px;
+  
+}
+.worker-block2 p2{
+  left: 119px !important;
+  width: 100px !important;
 }
 .worker-block2 p3{
   left: 0;
@@ -1829,6 +1841,7 @@ font-size: 12px;
   line-height: 14px;
   padding:12px 18px;
 }
+
 .worker-block2 p{
   left: 0;
   width: 368px;
