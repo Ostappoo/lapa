@@ -97,7 +97,7 @@
                         <p><a href="tel:+74959704845">+7 (495) 970-48-45</a></p>
                     </div>
                     <!-- Блоки выпадющие адаптивные -->
-                    <div onclick="worker('menu-tablet-drop')" id="menu-button-tablet" class="menu-button-tablet">
+                    <div onclick="displayBlock('menu-tablet-drop')" id="menu-button-tablet" class="menu-button-tablet">
                         <svg width="40" height="25" viewBox="0 0 40 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect width="40" height="3" rx="1.5" fill="#434343"/>
                             <rect x="12" y="11" width="28" height="3" rx="1.5" fill="#434343"/>
@@ -265,7 +265,7 @@
                         <path d="M34.796 6.58194C36.6163 6.58194 38.0866 5.11151 38.0866 3.29097C38.0866 1.47043 36.6163 0 34.796 0C32.9756 0 31.5054 1.47043 31.5054 3.29097C31.5054 5.11151 32.9756 6.58194 34.796 6.58194Z" fill="#434343"/>
                         </svg>
                     </div>
-                    <div  onclick="worker('menu-tablet-drop')" class="menu-tablet-exit">
+                    <div  onclick="displayBlock('menu-tablet-drop')" class="menu-tablet-exit">
                         <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect width="32.6711" height="2.45033" rx="1.22517" transform="matrix(0.708986 -0.705222 0.708986 0.705222 0.0991211 23.04)" fill="#434343"/>
                             <rect width="32.6711" height="2.45033" rx="1.22517" transform="matrix(0.708986 0.705222 -0.708986 0.705222 1.7373 0.231445)" fill="#434343"/>
@@ -480,19 +480,19 @@
             <h1>Наши мастера</h1>
 
             <div class="workers">
-                <div onclick="workertodo ('worker-block1')" class="worker">
+                <div onclick="workerToDo ('worker-block1')" class="worker">
                     <img src="Images/Staff/staff1.png">
                     <p> Трубицына Юлия </p>
                 </div>
-                <div onclick="workertodo ('worker-block2')" class="worker">
+                <div onclick="workerToDo ('worker-block2')" class="worker">
                     <img src="Images/Staff/staff1.png">
                     <p> Голанина Елена </p>
                 </div>
-                <div onclick="workertodo ('worker-block3')" class="worker">
+                <div onclick="workerToDo ('worker-block3')" class="worker">
                     <img src="Images/Staff/staff1.png">
                     <p> Баусова Анна </p>
                 </div>
-                <div onclick="workertodo ('worker-block4')" class="worker">
+                <div onclick="workerToDo ('worker-block4')" class="worker">
                     <img src="Images/Staff/staff1.png">
                     <p> Минаева Татьяна </p>
                 </div>
@@ -544,7 +544,7 @@
 
         <div class="questions">
             <div class="ask1">
-                <p onclick="menuid('answer1')">Как подготовить животное к сеансу? <svg width="14" height="14"
+                <p onclick="displayBlock('answer1')">Как подготовить животное к сеансу? <svg width="14" height="14"
                         viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect x="6" width="2" height="14" fill="#434343" />
                         <rect x="14" y="6" width="2" height="14" transform="rotate(90 14 6)" fill="#434343" />
@@ -559,7 +559,7 @@
             </div>
 
             <div class="ask2">
-                <p onclick="menuid('answer2')">Когда можно приучать питомца к грумингу?<svg width="14" height="14"
+                <p onclick="displayBlock('answer2')">Когда можно приучать питомца к грумингу?<svg width="14" height="14"
                         viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect x="6" width="2" height="14" fill="#434343" />
                         <rect x="14" y="6" width="2" height="14" transform="rotate(90 14 6)" fill="#434343" />
@@ -572,7 +572,7 @@
                 </div>
             </div>
             <div class="ask3">
-                <p onclick="menuid('answer3')">Что такое гигиенический груминг и что он в себя включает?<svg width="14"
+                <p onclick="displayBlock('answer3')">Что такое гигиенический груминг и что он в себя включает?<svg width="14"
                         height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect x="6" width="2" height="14" fill="#434343" />
                         <rect x="14" y="6" width="2" height="14" transform="rotate(90 14 6)" fill="#434343" />
@@ -585,7 +585,7 @@
                 </div>
             </div>
             <div class="ask4">
-                <p onclick="menuid('answer4')">Обязательно расскажите грумеру об особенностях животного!<svg width="14"
+                <p onclick="displayBlock('answer4')">Обязательно расскажите грумеру об особенностях животного!<svg width="14"
                         height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect x="6" width="2" height="14" fill="#434343" />
                         <rect x="14" y="6" width="2" height="14" transform="rotate(90 14 6)" fill="#434343" />
@@ -701,14 +701,6 @@
                     </div>
                 </div>
             </div>
-        
-
-           
-
-
-
-
-
     </main>
 
     <!-- Подвал -->

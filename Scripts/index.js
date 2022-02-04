@@ -32,43 +32,22 @@ button.addEventListener('click', function(){
     
 })
 */
+
 /* Вопросы и ответы  */
-function menuid (element_id){   
-    let obj = document.getElementById(element_id); 
-        if (obj.style.display != "block") { 
-            obj.style.display = "block"; 
-        }
-    else obj.style.display = "none"; 
-}    
-
-
-
-function worker (element_ide){
-
-        let imenu = document.getElementById(element_ide);
-        if (imenu.style.display == "block"){
-            imenu.style.display = "none"; 
-        }
-        else{
-            imenu.style.display = "block";}
+function displayBlock (elId){
+  let imenu = document.getElementById(elId);
+  imenu.style.display = imenu.style.display == 'block' ? 'none' : 'block'
 }
 
 
-function workertodo (workerid){
-  let worker1 = document.getElementById('worker-block1');
-  let worker2 = document.getElementById('worker-block2');
-  let worker3 = document.getElementById('worker-block3');
-  let worker4 = document.getElementById('worker-block4');
-  let activeworker = document.getElementById(workerid);
-  
-  worker1.style.display = "none";
-  worker2.style.display = "none";
-  worker3.style.display = "none";
-  worker4.style.display = "none";
-  activeworker.style.display = "block";
+function workerToDo(id,len=4) {
+  for(let i = 1; i<=len; i++) document.getElementById('worker-block'+i).style.display = 'none'
+   let activeworker = document.getElementById(id)
+   activeworker.style.display = 'block'
+  //setInterval()
+  //setTimeout()
+  //WindowTimers
 }
-
-
 
 
 const swiper = new Swiper('.swiper', {
