@@ -1259,6 +1259,10 @@ footer{
   border-radius: 0px;
   transition: .2s all ease-in-out;
 }
+.footer-border{
+  
+  display: none;
+}
 
 
 
@@ -1316,14 +1320,10 @@ footer{
   align-items: center;
 }
 .lapagrooming{
-  position: relative;
-  top: 0;
-  left: 0;
+  left: 5%;
 }
 .about-footer-down{
-  position: relative;
-  top: 0px;
-  left: 0;
+  left: 60%;
 }
 .staff{
   width: 1000px;
@@ -1613,8 +1613,8 @@ footer{
   justify-items: center;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  align-content: space-between;
+  align-items: flex-start
 }
 .footer_about svg{
   width: 218px;
@@ -1638,18 +1638,23 @@ footer{
   line-height: 140%;
 }
 .footer_right{
-  position: unset;
-  display: unset;
-  width: 0;
-  top: 0;
-  right: 0;
-  margin: 0;
+  position: relative;
+  width: 625px;
+  height: 420px;
+  top: 63px;
+  left: -25px;
+  right: unset;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 .basic{
-  position: absolute;
-  left: 15%;
-  top: 178px;
-  width: 132px;
+  position: unset;
+  left: 0;
+  top: 0;
+  height: 154px;
+  justify-content: space-between;
+  width: 320px;
 }
 .footer_right h1{
   font-size: 18px;
@@ -1658,20 +1663,28 @@ footer{
   font-size: 16px;
 }
 .additionaly{
-  position: absolute;
-  left: 50%;
-  top: 178px;
+  position: unset;
+  left: 0;
+  top: 0;
+  height: 154px;
+  justify-content: space-between;
+  width: 300px;
 }
 .salon{
-  position: absolute;
-    left: 15%;
-    top: 380px;
+  position: unset;
+  left: 0;
+  top: 0;
+  height: 154px;
+  justify-content: space-between;
+  width: 320px;
 }
 .contacts_footer{
-  position: absolute;
-  left: 50%;
-  top: 380px;
-  width: 234px;
+  position: unset;
+  left: 0;
+  top: 0;
+  height: 154px;
+  justify-content: space-between;
+  width: 300px;
 }
 .footerdown{
   font-size: 15px;
@@ -1699,7 +1712,7 @@ footer{
 
 
 
-@media (min-width: 375px) and (max-width: 690px) {
+@media (min-width: 425px) and (max-width: 690px) {
 .backheader{
   background-image: url("../Images/Mobile/Group1549.png");  
   height: 711px;
@@ -2038,9 +2051,10 @@ footer{
 .footer_about{
   flex-direction: column;
   top: 0;
-  width: 373px;
+  width: 425px;
   left: 0;
   position: unset;
+  align-items: flex-start;
 }
 .footer_about svg{
   width: 218px;
@@ -2064,18 +2078,24 @@ footer{
   line-height: 140%;
 }
 .footer_right{
-  position: unset;
-  display: unset;
-  width: 0;
-  top: 0;
-  right: 0;
-  margin: 0;
+  position: relative;
+  width: 425px;
+  height: 420px;
+  top: 31px;
+  left: 0;
+  right: unset;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  display: flex;
 }
 .basic{
-  position: absolute;
-  left: 15%;
-  top: 178px;
-  width: 132px;
+  position: unset;
+  left: 0;
+  top: 0;
+  height: 154px;
+  justify-content: space-between;
+  width: 144px;
 }
 .footer_right h1{
   font-size: 18px;
@@ -2084,20 +2104,28 @@ footer{
   font-size: 16px;
 }
 .additionaly{
-  position: absolute;
-  left: 50%;
-  top: 178px;
+  position: unset;
+  left: 0;
+  top: 0;
+  height: 154px;
+  justify-content: space-between;
+  width: 267px;
 }
 .salon{
-  position: absolute;
-  left: 15%;
-  top: 380px;
+  position: unset;
+  left: 0;
+  top: 0;
+  height: 154px;
+  justify-content: space-between;
+  width: 144px;
 }
 .contacts_footer{
-  position: absolute;
-  left: 50%;
-  top: 380px;
-  width: 140px;
+  position: unset;
+  left: 0;
+  top: 0;
+  height: 154px;
+  justify-content: space-between;
+  width: 267px;
 }
 .footerdown{
   font-size: 15px;
@@ -2128,7 +2156,7 @@ footer{
 
 
 
-@media (min-width: 220px) and (max-width: 375px) {
+@media (min-width: 220px) and (max-width: 425px) {
 .backheader{
   background-image: url("../Images/Mobile/Group1549.png");  
   height: 711px;
@@ -2452,7 +2480,7 @@ footer{
   top: -20px;
 }
 footer{
-  height: 911px;
+  height: 1103px;
 }
 .footerall{
   display: block;
@@ -2467,7 +2495,7 @@ footer{
   background: #434343;
 }
 .footerup{
-  height: 800px;
+  height: 1000px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -2515,13 +2543,11 @@ footer{
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  height: 724px;
-  justify-content: center;
+  height: 730px;
   right: 0;
-  margin: 0;
 }
 .basic{
-  height: 144px;
+  height: 165px;
   position: unset;
   left: 0;
   top: 0;
@@ -2530,42 +2556,48 @@ footer{
 .footer_right h1{
   font-size: 18px;
   padding-left: 20px;
+  margin: 0;
+  padding-bottom: 12px;
 }
 .footer_right a{
   font-size: 16px;
   padding-left: 20px;
+  margin: 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 .additionaly{
   width: 100%;
-    left: 50%;
-    top: 178px;
-    height: 144px;
-    position: unset;
+  left: 50%;
+  top: unset;
+  height: 165px;
+  margin-top: 20px;
+  position: unset;
 }
 .salon{
   width: 100%;
   position: unset;
-    left: 15%;
-    top: 380px;
-    height: 144px;
+  left: 15%;
+  top: 380px;
+  height: 165px;
 }
 .contacts_footer{
-  width: 100%;
   position: unset;
   left: 50%;
   top: 380px;
-  width: 305px;
-  height: 144px;
+  width: 100%;
+  height: 165px;
 }
 .footerdown{
   position: relative;
-  height: 107px;
+  height: 77px;
   left: 20px;
   width: 241px;
   font-size: 15px;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
+  top: 5px;
 }
 .lapagrooming{
   position: unset;
@@ -2585,7 +2617,11 @@ footer{
 .menu-tablet-drop{
   background: none;
 }
-
+.footer-border{
+  opacity: 0.4;
+  border: 1px solid #F9F9F9;
+  display: block;
+}
 }
 
 
