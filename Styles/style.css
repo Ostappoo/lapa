@@ -53,16 +53,23 @@ header{
                            /* блок титула */
 .title{
   position: relative;
-  width: 1440px;
+  width: 100%;
+  max-width: 1111px;
   height: 108px;
   top: 20px;
   transition: .2s all ease-in-out;
   
 }
+.title-border{
+  width: 100%;
+  position: absolute;
+  height: 68px;
+  max-width: 1440px;
+  border-bottom: 1px solid #D2D2D2;
+}
 .Logo{
   position: absolute;
   top: 0%;
-  padding-left: 165px;
   transition: .2s all ease-in-out;
 }
 .Logo-tablet{
@@ -83,8 +90,12 @@ header{
   width: 449px;
   height: 14px;
   position: absolute;
-  top: -7px;
-  right: 168px;
+  top: 7px;
+  right: 0;
+  
+}
+.contactss p{
+  margin: 0;
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: 600;
@@ -94,6 +105,7 @@ header{
   text-transform: uppercase;
   color: #434343;
   transition: .2s all ease-in-out;
+  
 }
 .contactss a{
   display: flex;
@@ -107,12 +119,13 @@ header{
   text-transform: uppercase;
   color: #434343;
   transition: .2s all ease-in-out;
+  text-decoration: unset;
 }
                            /* Блок меню */
 .menu{
   position: absolute;
   display: flex;
-  width: 1440px;
+  width: 100%;
   height: 58px;
   top: 48px;
   border-top: 1px solid #D2D2D2;
@@ -153,11 +166,9 @@ header{
   display: flex;
 }
 .services{
-  padding-left: 165px;
   transition: .2s all ease-in-out;
 }
 .vacancy{
-  padding-right: 165px;
   transition: .2s all ease-in-out;
 }
 
@@ -168,7 +179,6 @@ header{
   position: absolute;
   width: 377px;
   height: 196px;
-  left: 132px;
   top: 31px;
   background-image: url("../Images/backsvg.svg");
   justify-content: space-evenly;
@@ -417,17 +427,18 @@ header{
                            /* Блок сервисов */
 
 .main-sevrvise{
+  width: 100%;
+  max-width: 939px;
   display: flex;
-  flex-direction: column;
-  align-content: space-between;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  position: relative; 
-  width: 939px;
+  position: relative;
   height: 522px;
   top: -100px;
   text-align: center;
   transition: .2s all ease-in-out;
+  align-content: space-between;
 }
 .main-sevrvise h1{
   height: 28px;
@@ -444,7 +455,7 @@ header{
 }
 .main-sevrvise p{
   height: 88px;
-  width: 180px;
+  width: 237px;
   left: 993px;
   top: 948px;
   border-radius: nullpx;
@@ -463,10 +474,12 @@ header{
   display: flex;
   position: relative;
   flex-direction: column;
-  width: 1056px;
+  width: 100%;
+  max-width: 1056px;
   height: 258px;
   top: 40px;
   transition: .2s all ease-in-out;
+  justify-content: center;
 }
 .checkbreed h1{
   width: 540px;
@@ -532,11 +545,11 @@ header{
   flex-wrap: wrap;
   flex-direction: row;
   position: relative;
-  width: 1109px;
+  max-width: 1109px;
+  width: 100%;
   height: 628px;
   top: 260px;
   transition: .2s all ease-in-out;
-  
 }
 .category1:hover, 
 .category2:hover, 
@@ -548,6 +561,15 @@ header{
   transform:  translateY(-4px);
   box-shadow: 0 4px 6px -7px rgb(134 125 115 / 10%),
    0 40px 30px -9px rgb(134 125 115 / 20%);
+}
+.category1, 
+.category2,
+.category3, 
+.category4 
+.category5, 
+.category5 
+.category6{
+cursor: pointer;
 }
 .categories p{
   position: absolute;
@@ -568,42 +590,49 @@ header{
   height: 300px;
   background-image: url("../Images/Categories/KindGard.png");
   transition: .2s all ease-in-out;
+  cursor: pointer;
 }
 .category2{
   width: 270px;
   height: 300px;
   background-image: url("../Images/Categories/cyno.png");
   transition: .2s all ease-in-out;
+  cursor: pointer;
 }
 .category3{
   width: 338px;
   height: 300px;
   background-image: url("../Images/Categories/SPA.png");
   transition: .2s all ease-in-out;
+  cursor: pointer;
 }
 .category4{
   width: 210px;
   height: 300px;
   background-image: url("../Images/Categories/Promo.png");
   transition: .2s all ease-in-out;
+  cursor: pointer;
 }
 .category5{
   width: 345px;
   height: 300px;
   background-image: url("../Images/Categories/Coloring.png");
   transition: .2s all ease-in-out;
+  cursor: pointer;
 }
 .category6{
   width: 498px;
   height: 300px;
   background-image: url("../Images/Categories/Prep.png");
   transition: .2s all ease-in-out;
+  cursor: pointer;
 }
                            /* БЛОК МАСТЕРОВ  */
 .staff{
   display: flex;
   position: relative;
-  width: 1111px;
+  max-width: 1111px;
+  width: 100%;
   height: 524px;
   top: 365px;
   flex-direction: column;
@@ -756,7 +785,7 @@ header{
 }
 .aboutworker p{
   position: absolute;
-  width: 730px;
+
   height: 78px;
   left: 380px;
   top: 174px;
@@ -840,6 +869,8 @@ header{
   flex-direction: column;
   position: relative;
   top: 500px;
+  max-width: 706px;
+  width: 100%;
   transition: .2s all ease-in-out;
   
 }
@@ -848,7 +879,7 @@ header{
   align-items: center;
   justify-content: space-between;
   position: relative;
-  width: 706px;
+  
   height: auto;
   font-family: Proxima Nova;
   font-style: normal;
@@ -863,7 +894,7 @@ header{
 }
 .questions p1{
   display: block;
-  width: 692px;
+  width: 100%;
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: normal;
@@ -873,8 +904,8 @@ header{
   transition: .2s all ease-in-out;
 }
 .answer1, .answer2, .answer3, .answer4 {
-  display: none;
-
+  overflow: hidden;
+  height: 0;
   transition: .2s all ease-in-out;
   animation: Quest 2s ease;
 }
@@ -920,9 +951,11 @@ header{
 }
 .fotocolwidht{
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  transition: .2s all ease-in-out;
+    margin-top: 40px;
+    height: 205px;
+    flex-flow: wrap;
+    justify-content: center;
+    transition: .2s all ease-in-out;
 }
 .fotocol{
   display: flex;
@@ -936,7 +969,8 @@ header{
                             /* Блок Отзывов */
 .reviews{
   position: relative;
-  width: 994px;
+  max-width: 1111px;
+  width: 100%;
   height: 50px;
   top: 820px;
   transition: .2s all ease-in-out;
@@ -956,7 +990,6 @@ header{
 }
 .reviews p{
   position: absolute;
-  width: 608px;
   height: 50px;
   left: 386px;
   font-family: Proxima Nova;
@@ -1088,12 +1121,21 @@ footer{
   align-items: center;
   transition: .2s all ease-in-out;
 }
+.footer-border{
+  width: 100%;
+  max-width: 1440px;
+  position: absolute;
+  top: 206px;
+  z-index: 1;
+  border-bottom: 1px solid #F9F9F9;
+}
 .footerall{
   position: relative;
   left: 0%;
   right: 0%;
   bottom: 0%;
-  width: 1440px;
+  max-width: 1111px;
+  width: 100%;
   height: 257px;
   background: #434343;
   transition: .2s all ease-in-out;
@@ -1101,9 +1143,9 @@ footer{
 .footerup{
   position: relative;
   height: 206px;
-  border-bottom: 1px solid #F9F9F9;
 }
 .footerdown{
+  width: 100%;
   position: relative;
   height: 51px;
   font-family: Proxima Nova;
@@ -1116,7 +1158,7 @@ footer{
 }
 .lapagrooming{
   position: absolute;
-  left: 165px;
+  left: 0;
   top: 20px;
   font-family: Proxima Nova;
   font-style: normal;
@@ -1131,7 +1173,7 @@ footer{
   display: flex;
   justify-content: space-between;
   position: absolute;
-  left: 893px;
+  right: 0;
   width: 386px;
   align-items: center;
   top: 20px;
@@ -1146,7 +1188,6 @@ footer{
   align-items: flex-start;
   flex-direction: column;
   width: 239px;
-  left: 165px;
   top: 27px;
   transition: .2s all ease-in-out;
 }
@@ -1189,7 +1230,7 @@ footer{
   height: 122px;
   width: 740px;
   top: 40px;
-  right: 166px;
+  right: 0;
   margin: 0%;
   transition: .2s all ease-in-out;
 }
@@ -1259,86 +1300,27 @@ footer{
   border-radius: 0px;
   transition: .2s all ease-in-out;
 }
-.footer-border{
-  
+.svg-footer-mobile{
   display: none;
 }
 
 
-
 /*переход на таблет  */
-@media (min-width: 1000px) and (max-width: 1440px) {
-.uptitle{
-  display: flex;
-  justify-content: space-around;
+@media (min-width: 1150px) and (max-width: 1440px) {
+.reviews-swiper {
+  width: 960px;
 }
-.Logo {
-  top: 0%;
-  padding-left: 0px;
-  left: 6%;
+}
+
+@media (min-width: 1000px) and (max-width: 1150px) {
+.reviews-swiper {
+  width: 980px;
 }
 .title{
-  width: 100%;
-}
-.menu{
-  width: 100%;
-  justify-content: space-evenly;
-}
-.contactss {
-  right: 6%;
-}
-.vacancy {
-  padding-right: 0;
-}
-.services {
-  padding-left: 0px; 
-}
-.main-sevrvise {
-  width: 942px;
-}
-footer{
-  display: block;
-}
-.footerall{
-  width: 100%;
-}
-.footerup{
-  display: flex;
-  justify-content: space-around;
-}
-.footer_about{
-  left: 0;
-  position: relative;
-}
-.footer_right {
-  right: 0;
-  position: relative;
-}
-.footerdown{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.lapagrooming{
-  left: 5%;
-}
-.about-footer-down{
-  left: 60%;
-}
-.staff{
-  width: 1000px;
-}
-.aboutworker {
-  width: 1000px
-}
-.aboutworker p {
-  width: 616px;
-}
-.reviewsnew {
-  width: 1000px
+  max-width: 980px;
 }
 .categories{
-  width: 1000px;
+  max-width: 980px;
 }
 .category1{
   width: 399px;
@@ -1365,22 +1347,21 @@ footer{
   border-radius: 10px;
 }
 .checkbreed{
-  width: 972px;
-}
-.servicesblock{
-  left: 55px;
-}
-.reviews-swiper{
-  width: 960px;
+  max-width: 980px;
 }
 .checkbreed-image{
-  left: 538px;
+  left: 500px;
+}
+.staff{
+  max-width: 980px;
+}
+.reviews{
+  max-width: 980px;
+}
+.footerall{
+  max-width: 980px;
 }
 }
-
-
-
-
 
 
 @media (min-width: 690px) and (max-width: 1000px) {
@@ -1388,8 +1369,11 @@ footer{
   background-image: url("../Images/Tablet/Group1550.png");  
   height: 711px;
 }
+.title-border, .footer-border{
+  display: none;
+}
 .title{
-  width: 100%;
+  max-width: 768px;
 }
 .Logo{
   display: none;
@@ -1452,16 +1436,15 @@ footer{
   box-shadow: 0px 4px 34px rgba(134, 125, 115, 0.25);
 }
 .main-sevrvise{
-  flex-direction: row;
-  width: 590px;
+  max-width: 597px;
   height: 728px;
-  top: -96px;
 }
 .main-sevrvise p {
   width: 237px;
 }
 .checkbreed{
-  width: 629px;
+   max-width: 678px;
+  justify-content: normal
 }
 .checkbreed h1 {
   width: 470px;
@@ -1471,7 +1454,7 @@ footer{
   width: 418px;
 }
 .checkbreed-image {
-  left: 369px;
+  left: 396px;
   top: 19px;
   width: 276px;
   height: 261px;
@@ -1518,7 +1501,7 @@ footer{
   padding-left: 24px;
 }
 .staff {
-  width: 681px;
+  max-width: 678px;
   height: 602px;
 }
 .workers{
@@ -1555,12 +1538,10 @@ footer{
   left: 544px;
   top: 75px;
 }
-.questions p{
-  width: 678px;
+.questions{
+  max-width: 678px;
 }
-.questions p1{
-  width: 678px;
-}
+
 .instagrammsale{
   width: 597px;
   height: 46px;
@@ -1569,7 +1550,7 @@ footer{
   line-height: 140%;
 }
 .reviews{
-  width: 690px;
+  max-width: 678px;
 }
 .reviews p{
   left: 206px;
@@ -1585,16 +1566,7 @@ footer{
   height: 657px;
 }
 .footerall{
-  display: block;
-  flex-direction: unset;
-  flex-wrap: unset;
-  position: relative;
-  left: 0%;
-  right: 0%;
-  bottom: 0%;
-  width: 100%;
-  height: 100%;
-  background: #434343;
+  max-width: 678px;
 }
 .footerup{
   height: 602px;
@@ -1605,8 +1577,8 @@ footer{
 }
 .footer_about{
   height: 100px;
-  width: 678px;
-  left: 0;
+  width: 100%;
+  
   position: relative;
   display: flex;
   top: 40px;
@@ -1639,10 +1611,9 @@ footer{
 }
 .footer_right{
   position: relative;
-  width: 625px;
+  width: 100%;
   height: 420px;
   top: 63px;
-  left: -25px;
   right: unset;
   flex-direction: row;
   justify-content: flex-start;
@@ -1689,7 +1660,7 @@ footer{
 .footerdown{
   font-size: 15px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 .lapagrooming{
@@ -1708,14 +1679,13 @@ footer{
 
 
 
-
-
-
-
 @media (min-width: 425px) and (max-width: 690px) {
 .backheader{
   background-image: url("../Images/Mobile/Group1549.png");  
   height: 711px;
+}
+.title-border{
+  display: none;
 }
 .title{
   width: 100%;
@@ -1818,6 +1788,8 @@ footer{
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-between;
+  top: 160px;
+
 }
 .category1{
   width: 374px;
@@ -1861,6 +1833,8 @@ footer{
 .staff {
   width: 374px;
   height: 1000px;
+  top: 265px;
+
 }
 .staff h1{
   font-size: 24px;
@@ -1889,6 +1863,7 @@ footer{
 .worker1, .worker2, .worker3, .worker4 {
   width: 374px;
   height: 230px;
+  overflow: hidden;
 }
 .aboutworker h2 {
   left: 0px;
@@ -1923,9 +1898,7 @@ footer{
   line-height: 24px;
   
 }
-.worker1 img {
-  margin-top: -33px;
-}
+
 .worker-block2 p1{
   left: 0;
   width: 75px;
@@ -1954,17 +1927,25 @@ footer{
   height: 24px;
   font-size: 24px;
   line-height: 100%;
+  top: 360px;
 }
-
+.questions{
+  max-width: 420px;
+  top: 400px;
+}
 .questions p{
-  width: 374px;
+ 
   font-size: 16px;
   line-height: 24px;
 }
 .questions p1{
-  width: 374px;
+  
   font-size: 16px;
   line-height: 24px;
+}
+.instpets{
+  top: 560px;
+
 }
 .instagrammsale{
   width: 374px;
@@ -1981,6 +1962,7 @@ footer{
 .reviews{
   width: 374px;
   height: 122px;
+  top: 720px;
 }
 .reviews h1{
   font-size: 24px;
@@ -1998,6 +1980,7 @@ footer{
 .reviews-swiper{
   width: 374px;
   height: 209px;
+  top: 727px;
 }
 .swiper-slide-content{
   width: 374px;
@@ -2030,15 +2013,12 @@ footer{
   height: 657px;
 }
 .footerall{
-  display: block;
-  flex-direction: unset;
-  flex-wrap: unset;
+  height: 100%;
+  max-width: 430px;
   position: relative;
   left: 0%;
   right: 0%;
   bottom: 0%;
-  width: 100%;
-  height: 100%;
   background: #434343;
 }
 .footerup{
@@ -2050,9 +2030,7 @@ footer{
 }
 .footer_about{
   flex-direction: column;
-  top: 0;
-  width: 425px;
-  left: 0;
+  width: 100%;
   position: unset;
   align-items: flex-start;
 }
@@ -2079,7 +2057,7 @@ footer{
 }
 .footer_right{
   position: relative;
-  width: 425px;
+  width: 100%;
   height: 420px;
   top: 31px;
   left: 0;
@@ -2136,11 +2114,11 @@ footer{
 .lapagrooming{
   position: unset;
   font-size: 15px;
-  text-align: center;
+  text-align: left;
   
 }
 .about-footer-down{
-  width: 481px;
+  width: 100%;
   position: unset;
 }
 .tablet-left-side{
@@ -2148,6 +2126,9 @@ footer{
 }
 .menu-tablet-drop{
   background: none;
+}
+.footer-border{
+  display: none;
 }
 }
 
@@ -2162,6 +2143,12 @@ footer{
 .backheader{
   background-image: url("../Images/Mobile/Group1549.png");  
   height: 711px;
+}
+.title-border{
+  display: none;
+}
+.footer-border{
+  display: none;
 }
 .title{
   width: 100%;
@@ -2226,7 +2213,7 @@ footer{
   width: 130px;
   height: 130px;
 }
-                                        /*СДЕЛАТЬ */
+                                      
 .mainbutton:hover{
   border-radius: unset;
   box-shadow: unset;
@@ -2345,6 +2332,7 @@ footer{
 .worker1, .worker2, .worker3, .worker4 {
   width: 320px;
   height: 230px;
+  overflow: hidden;
 }
 .aboutworker h2 {
   left: 0px;
@@ -2378,9 +2366,7 @@ footer{
   top: 419px;
   line-height: 24px;
 }
-.worker1 img {
-  margin-top: -33px;
-}
+
 .worker-block2 p1{
   left: 0;
   width: 75px;
@@ -2410,8 +2396,11 @@ footer{
   font-size: 24px;
   line-height: 100%;
 }
+.questions{
+  max-width: 320px;
+}
 .questions p{
-  width: 320px;
+  width: 100%;
   font-size: 16px;
   line-height: 24px;
 }
@@ -2452,6 +2441,7 @@ footer{
 .reviews-swiper{
   width: 320px;
   height: 209px;
+  margin-top: 20px;
 }
 .swiper-slide-content{
   width: 374px;
@@ -2516,7 +2506,7 @@ footer{
   justify-content: space-evenly;
 }
 .footer_about svg{
-  width: 210px;
+  width: 320px;
   height: 52px;
   padding-bottom: unset;
 }
@@ -2619,26 +2609,20 @@ footer{
 .menu-tablet-drop{
   background: none;
 }
-.footer-border{
-  opacity: 0.4;
-  border: 1px solid #F9F9F9;
+.footer_right a {
+  border-bottom: 1px solid rgb(249,249,249,0.4 )
+}
+.svg-footer-mobile{
   display: block;
 }
+.svg-footer{
+  display: none;
+}
+
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-  
 
 
 
