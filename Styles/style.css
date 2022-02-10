@@ -1371,7 +1371,7 @@ footer{
   height: 711px;
 }
 .title-border, .footer-border{
-  display: none;
+  top: 602px;
 }
 .title{
   max-width: 768px;
