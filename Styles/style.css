@@ -1619,6 +1619,7 @@ footer{
   flex-direction: row;
   justify-content: flex-start;
   flex-wrap: wrap;
+  align-content: space-around;
 }
 .basic{
   position: unset;
@@ -2028,6 +2029,7 @@ footer{
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 .footer_about{
   flex-direction: column;
@@ -2067,6 +2069,7 @@ footer{
   justify-content: space-between;
   flex-wrap: wrap;
   display: flex;
+  align-content: space-around;
 }
 .basic{
   position: unset;
@@ -2129,7 +2132,7 @@ footer{
   background: none;
 }
 .footer-border{
-  display: none;
+  top: 602px;
 }
 }
 
