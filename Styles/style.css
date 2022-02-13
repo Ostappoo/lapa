@@ -2461,7 +2461,7 @@ footer{
   top: 14px;
 }
 .swiper-slide-content p{
-  width: 149px;
+  width: 141px;
   height: 80px;
   left: 171px;
   font-size: 14px;
@@ -2598,6 +2598,7 @@ footer{
 .lapagrooming{
   position: unset;
   font-size: 15px;
+  padding-bottom: 5px;
 }
 .about-footer-down{
   width: 100%;
