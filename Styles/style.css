@@ -41,7 +41,7 @@ header{
   right: 0px;
   top: 0px;
   background: #F7F5F3;
-  background-image: url("../Images/Desktop/Group1548.png");  
+  background-image: url("../images/Desktop/Group1548.png");  
   background-position: center;
   display: flex;
   flex-direction: column;
@@ -180,7 +180,7 @@ header{
   width: 377px;
   height: 196px;
   top: 31px;
-  background-image: url("../Images/backsvg.svg");
+  background-image: url("../images/backsvg.svg");
   justify-content: space-evenly;
   z-index: 1;
   transition: .2s all ease-in-out;
@@ -390,7 +390,7 @@ header{
   margin: 0%;
   transition: .2s all ease-in-out;
 }
-.about-tutle p1{
+.about-tutle span{
   font-family: Proxima Nova;
   font-size: 57px;
   font-style: italic;
@@ -536,7 +536,7 @@ header{
   left: 559px;
   width: 448.15px;
   height: 387.78px;
-  background-image: url("../Images/Desktop/checkbredim.png");
+  background-image: url("../images/Desktop/checkbredim.png");
   transition: .2s all ease-in-out;
 }
                            /* Блок категорий услуг  */
@@ -590,42 +590,42 @@ cursor: pointer;
 .category1{
   width: 445px;
   height: 300px;
-  background-image: url("../Images/Categories/KindGard.png");
+  background-image: url("../images/Categories/KindGard.png");
   transition: .2s all ease-in-out;
   cursor: pointer;
 }
 .category2{
   width: 270px;
   height: 300px;
-  background-image: url("../Images/Categories/cyno.png");
+  background-image: url("../images/Categories/cyno.png");
   transition: .2s all ease-in-out;
   cursor: pointer;
 }
 .category3{
   width: 338px;
   height: 300px;
-  background-image: url("../Images/Categories/SPA.png");
+  background-image: url("../images/Categories/SPA.png");
   transition: .2s all ease-in-out;
   cursor: pointer;
 }
 .category4{
   width: 210px;
   height: 300px;
-  background-image: url("../Images/Categories/Promo.png");
+  background-image: url("../images/Categories/Promo.png");
   transition: .2s all ease-in-out;
   cursor: pointer;
 }
 .category5{
   width: 345px;
   height: 300px;
-  background-image: url("../Images/Categories/Coloring.png");
+  background-image: url("../images/Categories/Coloring.png");
   transition: .2s all ease-in-out;
   cursor: pointer;
 }
 .category6{
   width: 498px;
   height: 300px;
-  background-image: url("../Images/Categories/Prep.png");
+  background-image: url("../images/Categories/Prep.png");
   transition: .2s all ease-in-out;
   cursor: pointer;
 }
@@ -765,6 +765,7 @@ cursor: pointer;
   font-size: 16px;
   line-height: 100%;
   color: #434343;
+  text-align: center;
   transition: .2s all ease-in-out;
 }
 .aboutworker p2{ 
@@ -782,6 +783,7 @@ cursor: pointer;
   font-weight: 600;
   font-size: 16px;
   line-height: 100%;
+  text-align: center;
   color: #434343;
   transition: .2s all ease-in-out;
 }
@@ -1371,7 +1373,7 @@ footer{
 
 @media (min-width: 690px) and (max-width: 1000px) {
 .backheader{
-  background-image: url("../Images/Tablet/Group1550.png");  
+  background-image: url("../images/Tablet/Group1550.png");  
   height: 711px;
 }
 .title-border{
@@ -1418,7 +1420,7 @@ footer{
   letter-spacing: 0em;
   text-align: center;
 }
-.about-tutle p1 {
+.about-tutle span {
   font-family: Proxima Nova;
   font-size: 40px;
   font-style: italic;
@@ -1466,7 +1468,7 @@ footer{
   top: 19px;
   width: 276px;
   height: 261px;
-  background-image: url("../Images/Tablet/cheakbreed_tablet.png")
+  background-image: url("../images/Tablet/cheakbreed_tablet.png")
 }
 .categories{
   width: 678px;
@@ -1475,32 +1477,32 @@ footer{
 .category1{
   width: 290px;
   height: 270px;
-  background-image: url("../Images/Tablet/Frame1191.png")
+  background-image: url("../images/Tablet/Frame1191.png")
 }
 .category2{
   width: 201px;
   height: 270px;
-  background-image: url("../Images/Tablet/Frame1220.png")
+  background-image: url("../images/Tablet/Frame1220.png")
 }
 .category3{
   width: 147px;
   height: 270px;
-  background-image: url("../Images/Tablet/Frame1221.png")
+  background-image: url("../images/Tablet/Frame1221.png")
 }
 .category4{
   width: 147px;
   height: 270px;
-  background-image: url("../Images/Tablet/Frame1222.png")
+  background-image: url("../images/Tablet/Frame1222.png")
 }
 .category5{
   width: 220px;
   height: 270px;
-  background-image: url("../Images/Tablet/Frame1223.png")
+  background-image: url("../images/Tablet/Frame1223.png")
 }
 .category6{
   width: 271px;
   height: 270px;
-  background-image: url("../Images/Tablet/Frame1224.png")
+  background-image: url("../images/Tablet/Frame1224.png")
 }
 .categories p{
   width: 235px;
@@ -1690,7 +1692,7 @@ footer{
 
 @media (min-width: 425px) and (max-width: 690px) {
 .backheader{
-  background-image: url("../Images/Mobile/Group1549.png");  
+  background-image: url("../images/Mobile/Group1549.png");  
   height: 711px;
 }
 .title-border{
@@ -1736,7 +1738,7 @@ footer{
   letter-spacing: 0em;
   text-align: center;
 }
-.about-tutle p1 {
+.about-tutle span {
   font-family: Proxima Nova;
   font-size: 32px;
   font-style: italic;
@@ -1788,7 +1790,7 @@ footer{
   top: 19px;
   width: 276px;
   height: 261px;
-  background-image: url("../Images/Tablet/cheakbreed_tablet.png")
+  background-image: url("../images/Tablet/cheakbreed_tablet.png")
 }
 .categories{
   width: 374px;
@@ -1803,32 +1805,32 @@ footer{
 .category1{
   width: 374px;
   height: 180px;
-  background-image: url("../Images/Mobile/Frame1191.png")
+  background-image: url("../images/Mobile/Frame1191.png")
 }
 .category2{
   width: 374px;
   height: 180px;
-  background-image: url("../Images/Mobile/Frame1192.png")
+  background-image: url("../images/Mobile/Frame1192.png")
 }
 .category3{
   width: 374px;
   height: 180px;
-  background-image: url("../Images/Mobile/Frame1193.png")
+  background-image: url("../images/Mobile/Frame1193.png")
 }
 .category4{
   width: 374px;
   height: 180px;
-  background-image: url("../Images/Mobile/Frame1194.png")
+  background-image: url("../images/Mobile/Frame1194.png")
 }
 .category5{
   width: 374px;
   height: 180px;
-  background-image: url("../Images/Mobile/Frame1195.png")
+  background-image: url("../images/Mobile/Frame1195.png")
 }
 .category6{
   width: 374px;
   height: 180px;
-  background-image: url("../Images/Mobile/Frame1196.png")
+  background-image: url("../images/Mobile/Frame1196.png")
 }
 .categories p{
   width: 154px;
@@ -2152,7 +2154,7 @@ footer{
 
 @media (min-width: 220px) and (max-width: 425px) {
 .backheader{
-  background-image: url("../Images/Mobile/Group1549.png");  
+  background-image: url("../images/Mobile/Group1549.png");  
   height: 711px;
 }
 .title-border{
@@ -2195,16 +2197,16 @@ footer{
 }
 .about-tutle h1 {
   font-family: Proxima Nova;
-  font-size: 32px;
+  font-size: 26px;
   font-style: normal;
   font-weight: 700;
   line-height: 35px;
   letter-spacing: 0em;
   text-align: center;
 }
-.about-tutle p1 {
+.about-tutle span {
   font-family: Proxima Nova;
-  font-size: 32px;
+  font-size: 26px;
   font-style: italic;
   font-weight: 400;
   line-height: 35px;
@@ -2212,7 +2214,7 @@ footer{
   text-align: center;
 }  
 .about-tutle p{
-  font-size: 16px;
+  font-size: 15px;
   line-height: 20px;
   padding-top: 28px;
 }
@@ -2257,7 +2259,7 @@ footer{
   top: 19px;
   width: 276px;
   height: 261px;
-  background-image: url("../Images/Tablet/cheakbreed_tablet.png")
+  background-image: url("../images/Tablet/cheakbreed_tablet.png")
 }
 .categories{
   width: 320px;
@@ -2271,37 +2273,37 @@ footer{
   width: 320px;
   height: 180px;
   border-radius: 10px;
-  background-image: url("../Images/Mobile/Frame1191.png")
+  background-image: url("../images/Mobile/Frame1191.png")
 }
 .category2{
   width: 320px;
   height: 180px;
   border-radius: 10px;
-  background-image: url("../Images/Mobile/Frame1192.png")
+  background-image: url("../images/Mobile/Frame1192.png")
 }
 .category3{
   width: 320px;
   height: 180px;
   border-radius: 10px;
-  background-image: url("../Images/Mobile/Frame1193.png")
+  background-image: url("../images/Mobile/Frame1193.png")
 }
 .category4{
   width: 320px;
   height: 180px;
   border-radius: 10px;
-  background-image: url("../Images/Mobile/Frame1194.png")
+  background-image: url("../images/Mobile/Frame1194.png")
 }
 .category5{
   width: 320px;
   height: 180px;
   border-radius: 10px;
-  background-image: url("../Images/Mobile/Frame1195.png")
+  background-image: url("../images/Mobile/Frame1195.png")
 }
 .category6{
   width: 320px;
   height: 180px;
   border-radius: 10px;
-  background-image: url("../Images/Mobile/Frame1196.png")
+  background-image: url("../images/Mobile/Frame1196.png")
 }
 .categories p{
   width: 154px;
@@ -2356,7 +2358,7 @@ footer{
   left: 0px;
   position: absolute;
   top: 315px;
-  width: 200px;
+  width: 210px;
   font-size: 14px;
   line-height: 14px;
   padding: 12px 18px;
@@ -2365,7 +2367,7 @@ footer{
   left: 0px;
   position: absolute;
   top: 362px;
-  width: 80px;
+  width: 90px;
   font-size: 14px;
   line-height: 14px;
   padding: 12px 18px;
@@ -2384,7 +2386,7 @@ footer{
 }
 .worker-block2 p2{
   left: 119px !important;
-  width: 100px !important;
+  width: 110px !important;
   top: 315px;
 }
 .worker-block2 p3{
